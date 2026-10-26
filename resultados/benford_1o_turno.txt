@@ -1,0 +1,659 @@
+==============================================================================
+ANALISE FORENSE DE BENFORD -- 1o turno
+fonte: votacao_secao_2026_BR.csv
+==============================================================================
+
+secoes distintas: 497,897
+municipios:       5,571
+votaveis:         15
+
+totais nacionais:
+   22 FLAVIO NANTES BOLSONARO                  55,960,603  44.79%
+   13 LUIZ INÁCIO LULA DA SILVA                53,722,151  43.00%
+   96 VOTO NULO                                 3,664,058   2.93%
+   70 AUGUSTO JORGE CURY                        3,438,835   2.75%
+   14 RENAN ANTONIO FERREIRA DOS SANTOS         2,667,307   2.13%
+   55 RONALDO RAMOS CAIADO                      2,600,440   2.08%
+   95 VOTO BRANCO                               2,294,982   1.84%
+   30 ROMEU ZEMA NETO                             323,159   0.26%
+   80 SAMARA MARTINS DA SILVA FEITOSA             121,858   0.10%
+   16 HERTZ DA CONCEICAO DIAS                      42,730   0.03%
+   27 CLARIANA ZACARKIM BARAO                      39,218   0.03%
+   21 EDMILSON SILVA COSTA                         22,272   0.02%
+   35 WILSON GRASSI JUNIOR                         16,508   0.01%
+   29 RUI COSTA PIMENTA                            14,825   0.01%
+   28 LEONARDO ALVES DE ARAUJO                      5,123   0.00%
+
+==============================================================================
+NIVEL 1 -- TOTAIS POR MUNICIPIO  (primeiro digito)
+==============================================================================
+
+[22] FLAVIO NANTES BOLSONARO
+  gate lognormal : sigma = 0.511 decadas -> desvio previsto 0.186 pp
+  gate de Fourier: |phi(2pi)| = 0.0870  (ruido amostral 0.0134, excesso 6.5x)
+                   |phi(4pi)| = 0.0193   desvio previsto na mantissa <= 6.49 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 85.6  gl=8  p = 3.6e-15
+    MAD  = 0.01145  -> aceitavel
+    Kuiper V = 0.05920  p = 1.44e-15
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,954 vs       1,677   +4.97pp  z=  +8.07 <<<
+        5:       363 vs         441   -1.40pp  z=  -3.85 <<<
+        6:       310 vs         373   -1.13pp  z=  -3.35 <<<
+        4:       468 vs         540   -1.29pp  z=  -3.23 <<<
+        7:       293 vs         323   -0.54pp  z=  -1.70
+        9:       230 vs         255   -0.45pp  z=  -1.57
+
+  2 primeiros digitos  (n=5,571)
+    chi2 = 174.6  gl=89  p = 1.61e-07
+    MAD  = 0.00162  -> aceitavel
+    maiores desvios (bin: obs vs esp, pp, z):
+       14:       221 vs         167   +0.97pp  z=  +4.21 <<<
+       22:       140 vs         108   +0.58pp  z=  +3.11 <<<
+       17:       174 vs         138   +0.64pp  z=  +3.03 <<<
+       45:        32 vs          53   -0.38pp  z=  -2.85
+       51:        28 vs          47   -0.34pp  z=  -2.71
+       12:       231 vs         194   +0.67pp  z=  +2.69
+       47:        32 vs          51   -0.34pp  z=  -2.60
+       90:        14 vs          27   -0.23pp  z=  -2.37
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:30.21%  2:19.64%  3:13.05%  4: 7.40%  5: 6.43%  6: 8.03%  7: 5.16%  8: 5.60%  9: 4.47%
+      maior desvio: digito 1 em 30.21% (+19.10pp)
+
+
+[13] LUIZ INÁCIO LULA DA SILVA
+  gate lognormal : sigma = 0.510 decadas -> desvio previsto 0.187 pp
+  gate de Fourier: |phi(2pi)| = 0.0208  (ruido amostral 0.0134, excesso 1.6x)
+                   |phi(4pi)| = 0.0228   desvio previsto na mantissa <= 2.36 pp
+  veredito: APLICAVEL (forma compativel com Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 12.8  gl=8  p = 0.118
+    MAD  = 0.00327  -> conformidade proxima
+    Kuiper V = 0.02198  p = 0.0883
+    maiores desvios (bin: obs vs esp, pp, z):
+        8:       320 vs         285   +0.63pp  z=  +2.10
+        3:       647 vs         696   -0.88pp  z=  -1.97
+        9:       286 vs         255   +0.56pp  z=  +1.96
+        4:       524 vs         540   -0.29pp  z=  -0.70
+        7:       335 vs         323   +0.21pp  z=  +0.66
+        6:       364 vs         373   -0.16pp  z=  -0.45
+
+  2 primeiros digitos  (n=5,571)
+    chi2 = 86.9  gl=89  p = 0.542
+    MAD  = 0.00096  -> conformidade proxima
+    maiores desvios (bin: obs vs esp, pp, z):
+       99:        42 vs          24   +0.32pp  z=  +3.49 <<<
+       43:        75 vs          56   +0.35pp  z=  +2.54
+       37:        49 vs          65   -0.28pp  z=  -1.88
+       87:        38 vs          28   +0.19pp  z=  +1.88
+       27:       105 vs          88   +0.31pp  z=  +1.77
+       10:       257 vs         231   +0.47pp  z=  +1.74
+       63:        27 vs          38   -0.20pp  z=  -1.72
+       39:        48 vs          61   -0.24pp  z=  -1.64
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:28.29%  2:15.67%  3:16.45%  4: 7.45%  5: 8.63%  6: 6.06%  7: 6.40%  8: 4.75%  9: 6.30%
+      maior desvio: digito 1 em 28.29% (+17.18pp)
+
+
+[96] VOTO NULO
+  gate lognormal : sigma = 0.518 decadas -> desvio previsto 0.160 pp
+  gate de Fourier: |phi(2pi)| = 0.0042  (ruido amostral 0.0134, excesso 0.3x)
+                   |phi(4pi)| = 0.0108   desvio previsto na mantissa <= 1.10 pp
+  veredito: APLICAVEL (forma compativel com Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 3.8  gl=8  p = 0.871
+    MAD  = 0.00214  -> conformidade proxima
+    Kuiper V = 0.01386  p = 0.775
+    maiores desvios (bin: obs vs esp, pp, z):
+        4:       515 vs         540   -0.45pp  z=  -1.10
+        8:       267 vs         285   -0.32pp  z=  -1.06
+        3:       720 vs         696   +0.43pp  z=  +0.95
+        9:       244 vs         255   -0.20pp  z=  -0.67
+        1:     1,696 vs       1,677   +0.34pp  z=  +0.54
+        2:       986 vs         981   +0.09pp  z=  +0.16
+
+  2 primeiros digitos  (n=5,571)
+    chi2 = 80.3  gl=89  p = 0.735
+    MAD  = 0.00103  -> conformidade proxima
+    maiores desvios (bin: obs vs esp, pp, z):
+       19:        99 vs         124   -0.45pp  z=  -2.23
+       86:        16 vs          28   -0.21pp  z=  -2.17
+       30:        98 vs          79   +0.34pp  z=  +2.05
+       76:        43 vs          32   +0.20pp  z=  +1.94
+       25:       114 vs          95   +0.34pp  z=  +1.93
+       14:       142 vs         167   -0.45pp  z=  -1.92
+       87:        37 vs          28   +0.17pp  z=  +1.69
+       13:       202 vs         179   +0.41pp  z=  +1.69
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:29.77%  2:21.73%  3:11.78%  4: 9.96%  5: 5.84%  6: 5.91%  7: 7.86%  8: 3.71%  9: 3.44%
+      maior desvio: digito 1 em 29.77% (+18.66pp)
+
+
+[70] AUGUSTO JORGE CURY
+  gate lognormal : sigma = 0.532 decadas -> desvio previsto 0.118 pp
+  gate de Fourier: |phi(2pi)| = 0.0505  (ruido amostral 0.0134, excesso 3.8x)
+                   |phi(4pi)| = 0.0062   desvio previsto na mantissa <= 3.59 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 33.6  gl=8  p = 4.8e-05
+    MAD  = 0.00826  -> aceitavel
+    Kuiper V = 0.04105  p = 4.75e-07
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,812 vs       1,677   +2.42pp  z=  +3.93 <<<
+        2:       893 vs         981   -1.58pp  z=  -3.08 <<<
+        3:       627 vs         696   -1.24pp  z=  -2.78
+        8:       312 vs         285   +0.49pp  z=  +1.61
+        7:       350 vs         323   +0.48pp  z=  +1.51
+        4:       507 vs         540   -0.59pp  z=  -1.47
+
+  2 primeiros digitos  (n=5,565)
+    chi2 = 95.3  gl=89  p = 0.303
+    MAD  = 0.00118  -> conformidade proxima
+    maiores desvios (bin: obs vs esp, pp, z):
+       29:        60 vs          82   -0.39pp  z=  -2.39
+       36:        49 vs          66   -0.31pp  z=  -2.07
+       98:        35 vs          25   +0.19pp  z=  +2.02
+       21:        91 vs         112   -0.39pp  z=  -1.99
+       33:        55 vs          72   -0.31pp  z=  -1.97
+       78:        42 vs          31   +0.20pp  z=  +1.94
+       77:        41 vs          31   +0.18pp  z=  +1.67
+       47:        39 vs          51   -0.21pp  z=  -1.60
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:27.19%  2:22.60%  3: 9.26%  4:11.34%  5: 8.36%  6: 6.46%  7: 3.96%  8: 4.09%  9: 6.74%
+      maior desvio: digito 1 em 27.19% (+16.08pp)
+
+
+[14] RENAN ANTONIO FERREIRA DOS SANTOS
+  gate lognormal : sigma = 0.574 decadas -> desvio previsto 0.048 pp
+  gate de Fourier: |phi(2pi)| = 0.0424  (ruido amostral 0.0134, excesso 3.2x)
+                   |phi(4pi)| = 0.0019   desvio previsto na mantissa <= 2.88 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 22.1  gl=8  p = 0.00473
+    MAD  = 0.00650  -> aceitavel
+    Kuiper V = 0.03612  p = 2.57e-05
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,569 vs       1,677   -1.94pp  z=  -3.14 <<<
+        4:       591 vs         540   +0.92pp  z=  +2.29
+        5:       487 vs         441   +0.82pp  z=  +2.25
+        6:       400 vs         373   +0.49pp  z=  +1.42
+        2:       943 vs         981   -0.68pp  z=  -1.32
+        3:       719 vs         696   +0.41pp  z=  +0.91
+
+  2 primeiros digitos  (n=5,537)
+    chi2 = 104.0  gl=89  p = 0.132
+    MAD  = 0.00119  -> conformidade proxima
+    maiores desvios (bin: obs vs esp, pp, z):
+       40:        84 vs          59   +0.44pp  z=  +3.15 <<<
+       65:        53 vs          37   +0.29pp  z=  +2.61
+       12:       159 vs         192   -0.60pp  z=  -2.42
+       22:        85 vs         107   -0.40pp  z=  -2.09
+       77:        43 vs          31   +0.22pp  z=  +2.07
+       45:        67 vs          53   +0.26pp  z=  +1.89
+       37:        79 vs          64   +0.27pp  z=  +1.81
+       52:        58 vs          46   +0.22pp  z=  +1.74
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:24.53%  2:25.33%  3:10.28%  4:11.62%  5: 5.62%  6: 5.47%  7: 4.54%  8: 8.76%  9: 3.86%
+      maior desvio: digito 2 em 25.33% (+14.21pp)
+
+
+[55] RONALDO RAMOS CAIADO
+  gate lognormal : sigma = 0.557 decadas -> desvio previsto 0.070 pp
+  gate de Fourier: |phi(2pi)| = 0.0543  (ruido amostral 0.0134, excesso 4.1x)
+                   |phi(4pi)| = 0.0114   desvio previsto na mantissa <= 3.98 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 27.3  gl=8  p = 0.000621
+    MAD  = 0.00722  -> aceitavel
+    Kuiper V = 0.04692  p = 1.94e-09
+    maiores desvios (bin: obs vs esp, pp, z):
+        2:       887 vs         981   -1.69pp  z=  -3.29 <<<
+        1:     1,590 vs       1,677   -1.56pp  z=  -2.53
+        5:       488 vs         441   +0.84pp  z=  +2.30
+        7:       353 vs         323   +0.54pp  z=  +1.69
+        4:       574 vs         540   +0.61pp  z=  +1.52
+        8:       306 vs         285   +0.38pp  z=  +1.25
+
+  2 primeiros digitos  (n=5,536)
+    chi2 = 122.4  gl=89  p = 0.0109
+    MAD  = 0.00130  -> aceitavel
+    maiores desvios (bin: obs vs esp, pp, z):
+       23:        75 vs         102   -0.49pp  z=  -2.68
+       25:        69 vs          94   -0.46pp  z=  -2.58
+       38:        82 vs          62   +0.35pp  z=  +2.42
+       55:        59 vs          43   +0.28pp  z=  +2.32
+       83:        41 vs          29   +0.22pp  z=  +2.19
+       73:        45 vs          33   +0.22pp  z=  +2.07
+       19:       101 vs         123   -0.40pp  z=  -1.99
+       95:        15 vs          25   -0.18pp  z=  -1.93
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:35.36%  2:12.93%  3:13.54%  4: 7.12%  5: 7.27%  6: 5.30%  7: 4.10%  8:10.97%  9: 3.42%
+      maior desvio: digito 1 em 35.36% (+24.25pp)
+
+
+[95] VOTO BRANCO
+  gate lognormal : sigma = 0.548 decadas -> desvio previsto 0.084 pp
+  gate de Fourier: |phi(2pi)| = 0.0246  (ruido amostral 0.0134, excesso 1.8x)
+                   |phi(4pi)| = 0.0190   desvio previsto na mantissa <= 2.36 pp
+  veredito: APLICAVEL (forma compativel com Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 14.8  gl=8  p = 0.064
+    MAD  = 0.00487  -> conformidade proxima
+    Kuiper V = 0.02788  p = 0.00547
+    maiores desvios (bin: obs vs esp, pp, z):
+        4:       596 vs         540   +1.01pp  z=  +2.52
+        2:       922 vs         981   -1.06pp  z=  -2.06
+        3:       734 vs         696   +0.68pp  z=  +1.52
+        7:       300 vs         323   -0.41pp  z=  -1.29
+        1:     1,637 vs       1,677   -0.72pp  z=  -1.15
+        8:       296 vs         285   +0.20pp  z=  +0.64
+
+  2 primeiros digitos  (n=5,538)
+    chi2 = 93.7  gl=89  p = 0.347
+    MAD  = 0.00108  -> conformidade proxima
+    maiores desvios (bin: obs vs esp, pp, z):
+       35:        93 vs          68   +0.46pp  z=  +3.02 <<<
+       91:        40 vs          26   +0.25pp  z=  +2.58
+       79:        16 vs          30   -0.26pp  z=  -2.51
+       41:        77 vs          58   +0.34pp  z=  +2.45
+       24:        76 vs          98   -0.40pp  z=  -2.21
+       49:        63 vs          49   +0.26pp  z=  +2.00
+       23:        83 vs         102   -0.35pp  z=  -1.88
+       10:       256 vs         229   +0.48pp  z=  +1.77
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:35.42%  2:14.29%  3:12.71%  4: 8.80%  5: 6.77%  6: 5.56%  7: 8.16%  8: 4.65%  9: 3.63%
+      maior desvio: digito 1 em 35.42% (+24.31pp)
+
+
+[30] ROMEU ZEMA NETO
+  gate lognormal : sigma = 0.670 decadas -> desvio previsto 0.005 pp
+  gate de Fourier: |phi(2pi)| = 0.0470  (ruido amostral 0.0139, excesso 3.4x)
+                   |phi(4pi)| = 0.0709   desvio previsto na mantissa <= 8.13 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,160)
+  1o digito  (n=5,160)
+    chi2 = 11.5  gl=8  p = 0.177
+    MAD  = 0.00368  -> conformidade proxima
+    Kuiper V = 0.12481  p = 4.87e-68
+    maiores desvios (bin: obs vs esp, pp, z):
+        9:       200 vs         236   -0.70pp  z=  -2.37
+        1:     1,608 vs       1,553   +1.06pp  z=  +1.64
+        8:       241 vs         264   -0.44pp  z=  -1.42
+        4:       524 vs         500   +0.46pp  z=  +1.10
+        7:       285 vs         299   -0.28pp  z=  -0.82
+        6:       340 vs         345   -0.11pp  z=  -0.28
+
+  2 primeiros digitos  (n=2,355)
+    chi2 = 509.1  gl=89  p = 3.86e-60
+    MAD  = 0.00434  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+       10:       177 vs          97   +3.38pp  z=  +8.17 <<<
+       11:       158 vs          89   +2.93pp  z=  +7.40 <<<
+       12:       142 vs          82   +2.55pp  z=  +6.71 <<<
+       14:       112 vs          71   +1.76pp  z=  +4.95 <<<
+       15:       101 vs          66   +1.49pp  z=  +4.31 <<<
+       16:        90 vs          62   +1.19pp  z=  +3.54 <<<
+       13:       105 vs          76   +1.24pp  z=  +3.35 <<<
+       17:        84 vs          58   +1.08pp  z=  +3.32 <<<
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:31.69%  2:16.69%  3:20.27%  4: 9.52%  5: 7.85%  6: 3.53%  7: 4.53%  8: 3.61%  9: 2.30%
+      maior desvio: digito 1 em 31.69% (+20.58pp)
+
+
+[80] SAMARA MARTINS DA SILVA FEITOSA
+  gate lognormal : sigma = 0.604 decadas -> desvio previsto 0.024 pp
+  gate de Fourier: |phi(2pi)| = 0.0836  (ruido amostral 0.0149, excesso 5.6x)
+                   |phi(4pi)| = 0.1785   desvio previsto na mantissa <= 17.53 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=4,522)
+  1o digito  (n=4,522)
+    chi2 = 150.0  gl=8  p = 1.95e-28
+    MAD  = 0.01737  -> NAO CONFORMIDADE
+    Kuiper V = 0.23972  p = 3.53e-224
+    maiores desvios (bin: obs vs esp, pp, z):
+        9:       123 vs         207   -1.86pp  z=  -5.94 <<<
+        1:     1,539 vs       1,361   +3.93pp  z=  +5.75 <<<
+        8:       150 vs         231   -1.80pp  z=  -5.45 <<<
+        2:       934 vs         796   +3.05pp  z=  +5.36 <<<
+        7:       189 vs         262   -1.62pp  z=  -4.63 <<<
+        6:       244 vs         303   -1.30pp  z=  -3.46 <<<
+
+  2 primeiros digitos  (n=1,040)
+    chi2 = 326.0  gl=89  p = 9.45e-29
+    MAD  = 0.00523  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+       11:        86 vs          39   +4.49pp  z=  +7.51 <<<
+       10:        88 vs          43   +4.32pp  z=  +6.92 <<<
+       13:        65 vs          33   +3.03pp  z=  +5.45 <<<
+       12:        60 vs          36   +2.29pp  z=  +3.95 <<<
+       16:        44 vs          27   +1.60pp  z=  +3.12 <<<
+       18:        38 vs          24   +1.31pp  z=  +2.68
+       14:        46 vs          31   +1.43pp  z=  +2.61
+       44:         2 vs          10   -0.78pp  z=  -2.41
+
+    invariancia de soma: fracao por digito inicial (esperado 11.11% cada)
+      1:39.54%  2:13.61%  3:10.41%  4: 5.54%  5: 6.59%  6:12.75%  7: 3.83%  8: 3.87%  9: 3.88%
+      maior desvio: digito 1 em 39.54% (+28.43pp)
+
+
+[16] HERTZ DA CONCEICAO DIAS
+  gate lognormal : sigma = 0.527 decadas -> desvio previsto 0.132 pp
+  gate de Fourier: |phi(2pi)| = 0.1943  (ruido amostral 0.0172, excesso 11.3x)
+                   |phi(4pi)| = 0.2914   desvio previsto na mantissa <= 31.32 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=3,376)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+
+[27] CLARIANA ZACARKIM BARAO
+  gate lognormal : sigma = 0.519 decadas -> desvio previsto 0.156 pp
+  gate de Fourier: |phi(2pi)| = 0.1937  (ruido amostral 0.0167, excesso 11.6x)
+                   |phi(4pi)| = 0.2791   desvio previsto na mantissa <= 30.82 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=3,607)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+
+[21] EDMILSON SILVA COSTA
+  gate lognormal : sigma = 0.440 decadas -> desvio previsto 0.692 pp
+  gate de Fourier: |phi(2pi)| = 0.2180  (ruido amostral 0.0170, excesso 12.8x)
+                   |phi(4pi)| = 0.3197   desvio previsto na mantissa <= 34.67 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=3,470)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+
+[35] WILSON GRASSI JUNIOR
+  gate lognormal : sigma = 0.453 decadas -> desvio previsto 0.550 pp
+  gate de Fourier: |phi(2pi)| = 0.3107  (ruido amostral 0.0200, excesso 15.6x)
+                   |phi(4pi)| = 0.3861   desvio previsto na mantissa <= 44.20 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=2,509)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+
+[29] RUI COSTA PIMENTA
+  gate lognormal : sigma = 0.456 decadas -> desvio previsto 0.523 pp
+  gate de Fourier: |phi(2pi)| = 0.3423  (ruido amostral 0.0214, excesso 16.0x)
+                   |phi(4pi)| = 0.4074   desvio previsto na mantissa <= 47.12 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=2,184)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+
+[28] LEONARDO ALVES DE ARAUJO
+  gate lognormal : sigma = 0.354 decadas -> desvio previsto 2.683 pp
+  gate de Fourier: |phi(2pi)| = 0.4471  (ruido amostral 0.0248, excesso 18.0x)
+                   |phi(4pi)| = 0.4642   desvio previsto na mantissa <= 57.92 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=1,628)
+  -> 1o digito NAO interpretado: a distribuicao do proprio dado nao e Benford
+==============================================================================
+NIVEL 2 -- VOTOS POR SECAO  (segundo digito / 2BL)
+==============================================================================
+O primeiro digito NAO se aplica aqui: secoes tem ~400 eleitores e a
+faixa e estreita demais. O teste do 2o digito (Mebane) e o padrao da
+literatura de election forensics -- e mesmo ele e contestado.
+
+[22] FLAVIO NANTES BOLSONARO
+  gate lognormal : sigma = 0.241 decadas -> desvio previsto 10.084 pp
+  gate de Fourier: |phi(2pi)| = 0.5129  (ruido amostral 0.0014, excesso 361.9x)
+                   |phi(4pi)| = 0.2111   desvio previsto na mantissa <= 40.89 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=497,818)
+  2o digito (2BL)  (n=495,420)
+    chi2 = 11,579.3  gl=9  p = 0
+    MAD  = 0.01307  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        9:    28,894 vs      42,109   -2.67pp  z= -67.32 <<<
+        8:    33,074 vs      43,384   -2.08pp  z= -51.82 <<<
+        2:    62,079 vs      53,912   +1.65pp  z= +37.26 <<<
+        3:    59,236 vs      51,687   +1.52pp  z= +35.08 <<<
+        7:    38,074 vs      44,762   -1.35pp  z= -33.14 <<<
+        1:    62,828 vs      56,423   +1.29pp  z= +28.64 <<<
+        4:    55,151 vs      49,695   +1.10pp  z= +25.80 <<<
+        0:    62,181 vs      59,292   +0.58pp  z= +12.65 <<<
+        6:    44,105 vs      46,260   -0.43pp  z= -10.52 <<<
+        5:    49,798 vs      47,896   +0.38pp  z=  +9.14 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 6.9% das secoes -> 120x4,368, 116x4,314, 119x4,304, 121x4,274, 123x4,261, 115x4,253, 117x4,239, 128x4,229
+
+[13] LUIZ INÁCIO LULA DA SILVA
+  gate lognormal : sigma = 0.196 decadas -> desvio previsto 14.886 pp
+  gate de Fourier: |phi(2pi)| = 0.4923  (ruido amostral 0.0014, excesso 347.4x)
+                   |phi(4pi)| = 0.0478   desvio previsto na mantissa <= 33.64 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=497,889)
+  2o digito (2BL)  (n=497,599)
+    chi2 = 5,783.5  gl=9  p = 0
+    MAD  = 0.00918  -> aceitavel
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    69,388 vs      59,552   +1.98pp  z= +42.96 <<<
+        9:    34,740 vs      42,295   -1.52pp  z= -38.40 <<<
+        1:    63,738 vs      56,672   +1.42pp  z= +31.53 <<<
+        8:    37,348 vs      43,575   -1.25pp  z= -31.23 <<<
+        7:    40,718 vs      44,959   -0.85pp  z= -20.97 <<<
+        2:    58,533 vs      54,149   +0.88pp  z= +19.95 <<<
+        6:    43,559 vs      46,463   -0.58pp  z= -14.15 <<<
+        5:    46,504 vs      48,106   -0.32pp  z=  -7.68 <<<
+        3:    53,475 vs      51,914   +0.31pp  z=  +7.24 <<<
+        4:    49,596 vs      49,913   -0.06pp  z=  -1.49
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 7.6% das secoes -> 83x4,836, 82x4,763, 86x4,761, 81x4,703, 85x4,673, 77x4,671, 84x4,671, 76x4,650
+
+[96] VOTO NULO
+  gate lognormal : sigma = 0.284 decadas -> desvio previsto 6.472 pp
+  gate de Fourier: |phi(2pi)| = 0.3009  (ruido amostral 0.0014, excesso 210.9x)
+                   |phi(4pi)| = 0.0537   desvio previsto na mantissa <= 22.03 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=491,267)
+  2o digito (2BL)  (n=135,505)
+    chi2 = 46,408.9  gl=9  p = 0
+    MAD  = 0.05159  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    32,036 vs      16,217  +11.67pp  z=+132.39 <<<
+        1:    26,179 vs      15,433   +7.93pp  z= +91.89 <<<
+        9:     2,545 vs      11,518   -6.62pp  z= -87.40 <<<
+        8:     3,684 vs      11,866   -6.04pp  z= -78.63 <<<
+        7:     4,994 vs      12,243   -5.35pp  z= -68.69 <<<
+        2:    20,865 vs      14,746   +4.52pp  z= +53.37 <<<
+        6:     7,012 vs      12,653   -4.16pp  z= -52.66 <<<
+        5:     9,398 vs      13,100   -2.73pp  z= -34.03 <<<
+        3:    16,406 vs      14,137   +1.67pp  z= +20.16 <<<
+        4:    12,386 vs      13,592   -0.89pp  z= -10.90 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 69.1% das secoes -> 5x49,788, 6x49,339, 4x46,968, 7x46,081, 8x41,397, 3x39,891, 9x35,969, 10x30,234
+
+[70] AUGUSTO JORGE CURY
+  gate lognormal : sigma = 0.288 decadas -> desvio previsto 6.200 pp
+  gate de Fourier: |phi(2pi)| = 0.3215  (ruido amostral 0.0014, excesso 224.1x)
+                   |phi(4pi)| = 0.0801   desvio previsto na mantissa <= 24.55 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=486,089)
+  2o digito (2BL)  (n=120,530)
+    chi2 = 56,231.3  gl=9  p = 0
+    MAD  = 0.06003  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    31,349 vs      14,425  +14.04pp  z=+150.18 <<<
+        1:    24,963 vs      13,727   +9.32pp  z=+101.87 <<<
+        9:     1,533 vs      10,245   -7.23pp  z= -89.97 <<<
+        8:     2,293 vs      10,555   -6.85pp  z= -84.18 <<<
+        7:     3,463 vs      10,890   -6.16pp  z= -74.62 <<<
+        6:     5,153 vs      11,254   -5.06pp  z= -60.40 <<<
+        2:    19,393 vs      13,116   +5.21pp  z= +58.05 <<<
+        5:     7,467 vs      11,653   -3.47pp  z= -40.79 <<<
+        3:    14,313 vs      12,575   +1.44pp  z= +16.37 <<<
+        4:    10,603 vs      12,090   -1.23pp  z= -14.25 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 70.7% das secoes -> 5x49,497, 6x49,299, 7x46,899, 4x46,594, 8x42,088, 3x40,726, 9x36,644, 2x32,112
+
+[14] RENAN ANTONIO FERREIRA DOS SANTOS
+  gate lognormal : sigma = 0.324 decadas -> desvio previsto 4.028 pp
+  gate de Fourier: |phi(2pi)| = 0.2015  (ruido amostral 0.0015, excesso 137.7x)
+                   |phi(4pi)| = 0.0896   desvio previsto na mantissa <= 18.84 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=467,173)
+  2o digito (2BL)  (n=71,569)
+    chi2 = 33,885.0  gl=9  p = 0
+    MAD  = 0.05966  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    19,421 vs       8,565  +15.17pp  z=+125.01 <<<
+        1:    14,645 vs       8,151   +9.07pp  z= +76.41 <<<
+        9:     1,135 vs       6,083   -6.91pp  z= -66.32 <<<
+        8:     1,520 vs       6,267   -6.63pp  z= -62.77 <<<
+        7:     2,224 vs       6,466   -5.93pp  z= -55.31 <<<
+        6:     3,068 vs       6,683   -5.05pp  z= -46.43 <<<
+        2:    11,018 vs       7,788   +4.51pp  z= +38.76 <<<
+        5:     4,323 vs       6,919   -3.63pp  z= -32.83 <<<
+        4:     5,979 vs       7,179   -1.68pp  z= -14.92 <<<
+        3:     8,236 vs       7,467   +1.07pp  z=  +9.40 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 79.6% das secoes -> 3x56,711, 2x54,800, 4x54,562, 5x49,802, 1x46,215, 6x43,413, 7x36,500, 8x29,747
+
+[55] RONALDO RAMOS CAIADO
+  gate lognormal : sigma = 0.345 decadas -> desvio previsto 3.053 pp
+  gate de Fourier: |phi(2pi)| = 0.1906  (ruido amostral 0.0015, excesso 129.5x)
+                   |phi(4pi)| = 0.0950   desvio previsto na mantissa <= 18.94 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=461,614)
+  2o digito (2BL)  (n=51,180)
+    chi2 = 17,793.5  gl=9  p = 0
+    MAD  = 0.04935  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    13,636 vs       6,125  +14.68pp  z=+102.28 <<<
+        1:     9,550 vs       5,829   +7.27pp  z= +51.77 <<<
+        9:     1,795 vs       4,350   -4.99pp  z= -40.49 <<<
+        8:     2,082 vs       4,482   -4.69pp  z= -37.52 <<<
+        7:     2,302 vs       4,624   -4.54pp  z= -35.80 <<<
+        6:     2,649 vs       4,779   -4.16pp  z= -32.35 <<<
+        5:     3,101 vs       4,948   -3.61pp  z= -27.62 <<<
+        2:     6,967 vs       5,569   +2.73pp  z= +19.83 <<<
+        4:     3,985 vs       5,134   -2.24pp  z= -16.90 <<<
+        3:     5,113 vs       5,340   -0.44pp  z=  -3.27 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 85.2% das secoes -> 3x63,788, 2x63,546, 4x59,569, 1x55,907, 5x51,449, 6x42,208, 7x33,032, 8x23,991
+
+[95] VOTO BRANCO
+  gate lognormal : sigma = 0.298 decadas -> desvio previsto 5.490 pp
+  gate de Fourier: |phi(2pi)| = 0.2242  (ruido amostral 0.0015, excesso 154.0x)
+                   |phi(4pi)| = 0.0867   desvio previsto na mantissa <= 20.49 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=471,532)
+  2o digito (2BL)  (n=38,127)
+    chi2 = 36,217.5  gl=9  p = 0
+    MAD  = 0.08286  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:    13,502 vs       4,563  +23.45pp  z=+141.03 <<<
+        1:     9,215 vs       4,342  +12.78pp  z= +78.55 <<<
+        9:       167 vs       3,241   -8.06pp  z= -56.44 <<<
+        8:       287 vs       3,339   -8.00pp  z= -55.28 <<<
+        7:       479 vs       3,445   -7.78pp  z= -52.97 <<<
+        6:       852 vs       3,560   -7.10pp  z= -47.66 <<<
+        5:     1,418 vs       3,686   -5.95pp  z= -39.30 <<<
+        2:     6,134 vs       4,149   +5.21pp  z= +32.64 <<<
+        4:     2,366 vs       3,824   -3.83pp  z= -24.85 <<<
+        3:     3,707 vs       3,978   -0.71pp  z=  -4.53 <<<
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 87.8% das secoes -> 3x68,865, 4x65,137, 2x64,419, 5x56,778, 1x49,437, 6x46,458, 7x35,888, 8x26,979
+
+[30] ROMEU ZEMA NETO
+  gate lognormal : sigma = 0.233 decadas -> desvio previsto 10.863 pp
+  gate de Fourier: |phi(2pi)| = 0.4317  (ruido amostral 0.0023, excesso 184.5x)
+                   |phi(4pi)| = 0.5058   desvio previsto na mantissa <= 58.96 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=182,751)
+  2o digito (2BL)  (n=432)
+    chi2 = 295.6  gl=9  p = 2.26e-58
+    MAD  = 0.06948  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        0:       136 vs          52  +19.51pp  z= +12.42 <<<
+        1:        96 vs          49  +10.83pp  z=  +7.01 <<<
+        9:         2 vs          37   -8.04pp  z=  -5.90 <<<
+        8:         8 vs          38   -6.91pp  z=  -4.99 <<<
+        7:        12 vs          39   -6.26pp  z=  -4.45 <<<
+        6:        13 vs          40   -6.33pp  z=  -4.44 <<<
+        5:        20 vs          42   -5.04pp  z=  -3.46 <<<
+        2:        66 vs          47   +4.40pp  z=  +2.86
+        3:        40 vs          45   -1.17pp  z=  -0.72
+        4:        39 vs          43   -1.00pp  z=  -0.61
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 99.6% das secoes -> 1x108,611, 2x41,054, 3x17,250, 4x7,959, 5x3,833, 6x1,896, 7x940, 8x529
+
+[80] SAMARA MARTINS DA SILVA FEITOSA
+  gate lognormal : sigma = 0.134 decadas -> desvio previsto 22.379 pp
+  gate de Fourier: |phi(2pi)| = 0.7534  (ruido amostral 0.0032, excesso 238.1x)
+                   |phi(4pi)| = 0.7249   desvio previsto na mantissa <= 90.64 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=99,868)
+  2o digito (2BL)  (n=1)
+    chi2 = 8.6  gl=9  p = 0.476
+    MAD  = 0.17913  -> NAO CONFORMIDADE
+    maiores desvios (bin: obs vs esp, pp, z):
+        3:         1 vs           0  +89.57pp  z=  +1.29
+        0:         0 vs           0  -11.97pp  z=  -0.00
+        1:         0 vs           0  -11.39pp  z=  -0.00
+        2:         0 vs           0  -10.88pp  z=  -0.00
+        4:         0 vs           0  -10.03pp  z=  -0.00
+        5:         0 vs           0   -9.67pp  z=  -0.00
+        6:         0 vs           0   -9.34pp  z=  -0.00
+        7:         0 vs           0   -9.04pp  z=  -0.00
+        8:         0 vs           0   -8.76pp  z=  -0.00
+        9:         0 vs           0   -8.50pp  z=  -0.00
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x81,518, 2x15,301, 3x2,555, 4x425, 5x53, 6x12, 8x2, 7x1
+
+[16] HERTZ DA CONCEICAO DIAS
+  gate lognormal : sigma = 0.087 decadas -> desvio previsto 27.451 pp
+  gate de Fourier: |phi(2pi)| = 0.8943  (ruido amostral 0.0050, excesso 177.4x)
+                   |phi(4pi)| = 0.8694   desvio previsto na mantissa <= 105.32 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=39,341)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x36,225, 2x2,863, 3x236, 4x14, 5x3
+
+[27] CLARIANA ZACARKIM BARAO
+  gate lognormal : sigma = 0.084 decadas -> desvio previsto 27.676 pp
+  gate de Fourier: |phi(2pi)| = 0.9028  (ruido amostral 0.0052, excesso 172.0x)
+                   |phi(4pi)| = 0.8807   desvio previsto na mantissa <= 106.25 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=36,303)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x33,667, 2x2,405, 3x200, 4x25, 7x2, 5x2, 8x1, 9x1
+
+[21] EDMILSON SILVA COSTA
+  gate lognormal : sigma = 0.056 decadas -> desvio previsto 29.947 pp
+  gate de Fourier: |phi(2pi)| = 0.9557  (ruido amostral 0.0068, excesso 140.2x)
+                   |phi(4pi)| = 0.9414   desvio previsto na mantissa <= 111.87 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=21,525)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x20,802, 2x701, 3x20, 4x2
+
+[35] WILSON GRASSI JUNIOR
+  gate lognormal : sigma = 0.056 decadas -> desvio previsto 29.887 pp
+  gate de Fourier: |phi(2pi)| = 0.9549  (ruido amostral 0.0079, excesso 120.6x)
+                   |phi(4pi)| = 0.9419   desvio previsto na mantissa <= 111.81 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=15,941)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x15,401, 2x515, 3x23, 4x2
+
+[29] RUI COSTA PIMENTA
+  gate lognormal : sigma = 0.056 decadas -> desvio previsto 29.903 pp
+  gate de Fourier: |phi(2pi)| = 0.9552  (ruido amostral 0.0084, excesso 114.3x)
+                   |phi(4pi)| = 0.9425   desvio previsto na mantissa <= 111.85 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=14,320)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x13,839, 2x458, 3x22, 4x1
+
+[28] LEONARDO ALVES DE ARAUJO
+  gate lognormal : sigma = 0.037 decadas -> desvio previsto 30.970 pp
+  gate de Fourier: |phi(2pi)| = 0.9799  (ruido amostral 0.0141, excesso 69.6x)
+                   |phi(4pi)| = 0.9729   desvio previsto na mantissa <= 114.51 pp
+  veredito: NAO APLICAVEL (a forma do dado nao e Benford)   (n=5,045)
+  2o digito (2BL): sem dados
+
+    dois ultimos digitos: NAO APLICAVEL (exige >=4 digitos; votos por secao tem 2-3)
+    duplicacao: top-8 valores = 100.0% das secoes -> 1x4,968, 2x76, 3x1

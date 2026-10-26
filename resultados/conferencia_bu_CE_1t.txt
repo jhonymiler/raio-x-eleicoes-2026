@@ -1,0 +1,18 @@
+CE 1o turno 2026, Presidente — bweb_1t_CE_051020261403.csv
+  SHA-512 do zip confere com o .sha512 publicado pelo TSE
+  secoes: 23,765 no BU, 23,765 na totalizacao (23,765 na uniao)
+  registros secao x votavel: 167,164 BU, 167,164 totalizacao
+   votavel           BU  totalizacao
+        13    3,555,263    3,555,263
+        22    1,756,850    1,756,850
+        96      189,185      189,185
+        70      140,524      140,524
+        14      107,587      107,587
+        95      103,295      103,295
+        55       45,604       45,604
+  DIFERENCAS: 0
+
+Controle estrutural do mesmo estado (184 municipios, 1o digito):
+  votos do Lula            MAD=0.0280 p=3.2e-03  -> "desvio"
+  total do municipio       MAD=0.0315 p=1.5e-02  (desvia mais; nao manipulavel)
+  share do Lula: 47% a 84% por municipio (mediana 71%)

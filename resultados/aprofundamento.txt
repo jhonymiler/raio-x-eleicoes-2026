@@ -1,0 +1,65 @@
+secoes 2026: 499,206  2022: 472,028  com residuo nas duas: 413,602
+
+1. BIOMETRIA (residuo do Lula vs escola; alto = >=20% liberados sem digital)
+   alto  n=  2,350 2026=+0.65pp  mesmas secoes: 2022=+0.12pp 2026=+0.65pp mudanca=+0.53pp (n=2,045)
+   baixo n=165,054 2026=-0.20pp  mesmas secoes: 2022=-0.00pp 2026=-0.25pp mudanca=-0.25pp (n=151,163)
+   dif_2026         +0.85pp  z=8.9
+   dif_2022_mesmas  +0.12pp  z=1.3
+   dif_mudanca      +0.78pp  z=9.6
+   votos em jogo se tudo fosse fraude: 4,210
+   faixa 0.00-0.02: n= 16,790 2026=-0.37pp 2022=-0.04pp mudanca=-0.44pp
+   faixa 0.02-0.05: n=148,264 2026=-0.18pp 2022=+0.00pp mudanca=-0.23pp
+   faixa 0.05-0.10: n=219,151 2026=+0.07pp 2022=+0.02pp mudanca=+0.00pp
+   faixa 0.10-0.20: n= 65,248 2026=+0.33pp 2022=+0.06pp mudanca=+0.24pp
+   faixa 0.20-0.30: n=  2,079 2026=+0.70pp 2022=+0.14pp mudanca=+0.57pp
+   faixa 0.30-1.00: n=    271 2026=+0.26pp 2022=-0.05pp mudanca=+0.21pp
+
+2. ESCOLA |z|>5: 185 secoes, pro-Lula 123, pro-Flavio 62; com 2022: 60, mesmo sinal e >5pp em 2022: 55; correlacao 2026x2022 geral=0.62, fortes=0.91
+
+3. KLIMEK canto: 65 (Lula 62, Flavio 3); ja >=90% em 2022: 18; sem par em 2022: 44
+   RR-3107-7-124          UIRAMUTÃ             cand=13 aptos=52 turn=1.00 share26=1.00 share22=None biom=1
+   PA-4251-65-327         BARCARENA            cand=13 aptos=115 turn=0.99 share26=0.98 share22=None biom=8
+   AM-2135-20-118         BENJAMIN CONSTANT    cand=13 aptos=214 turn=0.99 share26=0.98 share22=None biom=4
+   MA-7994-31-234         ICATU                cand=13 aptos=103 turn=0.99 share26=0.90 share22=None biom=0
+   PE-23116-120-85        ALAGOINHA            cand=13 aptos=82 turn=0.99 share26=0.92 share22=None biom=5
+   PA-4014-7-288          ABAETETUBA           cand=13 aptos=74 turn=0.99 share26=0.93 share22=0.94 biom=7
+   BA-39039-96-119        SENTO SÉ             cand=13 aptos=72 turn=0.99 share26=0.98 share22=None biom=16
+   MA-7315-23-469         BARRA DO CORDA       cand=13 aptos=62 turn=0.98 share26=0.95 share22=None biom=2
+   AM-2771-24-79          SILVES               cand=13 aptos=61 turn=0.98 share26=0.95 share22=None biom=0
+   CE-13080-17-752        TURURU               cand=13 aptos=169 turn=0.98 share26=0.91 share22=None biom=7
+   PI-11592-10-311        PICOS                cand=13 aptos=224 turn=0.98 share26=0.91 share22=0.92 biom=26
+   PI-10952-64-127        IPIRANGA DO PIAUÍ    cand=13 aptos=151 turn=0.98 share26=0.93 share22=None biom=24
+
+4. MUNICIPIOS
+   AP MACAPÁ                   ['z_swing'] aptos=321,597 val22=247,365 val26=263,728 biom>30%=0/1027 | 2026: FLAVIO 47%, LUIZ 43%, AUGUSTO 4% | 2022: JAIR 46%, LUIZ 41%
+   CE ITAITINGA                ['z_cresc'] aptos=38,235 val22=24,943 val26=31,443 biom>30%=0/134 | 2026: LUIZ 56%, FLAVIO 37%, AUGUSTO 3% | 2022: LUIZ 63%, JAIR 30%
+   GO ANHANGÜERA               ['z_turn'] aptos=1,738 val22=879 val26=1,054 biom>30%=0/5 | 2026: FLAVIO 45%, LUIZ 41%, RONALDO 12% | 2022: LUIZ 49%, JAIR 43%
+   MA ANAJATUBA                ['z_biom'] aptos=20,568 val22=14,254 val26=16,004 biom>30%=1/87 | 2026: LUIZ 77%, FLAVIO 19%, AUGUSTO 2% | 2022: LUIZ 82%, JAIR 15%
+   MA SÃO FRANCISCO DO MARANHÃ ['z_biom'] aptos=9,159 val22=6,752 val26=6,896 biom>30%=0/36 | 2026: LUIZ 82%, FLAVIO 15%, RONALDO 1% | 2022: LUIZ 86%, JAIR 11%
+   PA SÃO DOMINGOS DO CAPIM    ['z_biom'] aptos=25,155 val22=18,794 val26=19,833 biom>30%=9/104 | 2026: LUIZ 71%, FLAVIO 25%, AUGUSTO 2% | 2022: LUIZ 71%, JAIR 21%
+   PA CANAÃ DOS CARAJÁS        ['z_cresc'] aptos=73,378 val22=35,827 val26=53,408 biom>30%=0/204 | 2026: FLAVIO 63%, LUIZ 31%, AUGUSTO 3% | 2022: JAIR 59%, LUIZ 36%
+   PB VÁRZEA                   ['z_biom'] aptos=2,845 val22=2,158 val26=2,371 biom>30%=0/10 | 2026: LUIZ 74%, FLAVIO 21%, AUGUSTO 3% | 2022: LUIZ 82%, JAIR 14%
+   PI BAIXA GRANDE DO RIBEIRO  ['z_swing'] aptos=11,444 val22=8,217 val26=9,282 biom>30%=0/40 | 2026: LUIZ 54%, FLAVIO 41%, AUGUSTO 3% | 2022: LUIZ 69%, JAIR 27%
+   PI SÃO JULIÃO               ['z_swing'] aptos=5,605 val22=4,260 val26=4,631 biom>30%=0/23 | 2026: LUIZ 76%, FLAVIO 21%, AUGUSTO 2% | 2022: LUIZ 68%, JAIR 27%
+   PR SÃO JOÃO DO TRIUNFO      ['z_swing'] aptos=11,623 val22=9,065 val26=9,018 biom>30%=0/46 | 2026: FLAVIO 52%, LUIZ 38%, RENAN 4% | 2022: LUIZ 59%, JAIR 34%
+   RJ SAQUAREMA                ['z_cresc'] aptos=92,059 val22=53,881 val26=68,650 biom>30%=0/283 | 2026: FLAVIO 64%, LUIZ 30%, AUGUSTO 2% | 2022: JAIR 61%, LUIZ 33%
+   RJ MARICÁ                   ['z_cresc'] aptos=185,609 val22=110,499 val26=138,877 biom>30%=0/521 | 2026: FLAVIO 50%, LUIZ 43%, AUGUSTO 3% | 2022: JAIR 48%, LUIZ 46%
+   RN TIBAU                    ['z_cresc'] aptos=9,238 val22=5,142 val26=6,711 biom>30%=0/26 | 2026: LUIZ 57%, FLAVIO 37%, AUGUSTO 3% | 2022: LUIZ 67%, JAIR 29%
+   RN EXTREMOZ                 ['z_cresc'] aptos=39,504 val22=22,870 val26=31,333 biom>30%=0/116 | 2026: LUIZ 50%, FLAVIO 44%, AUGUSTO 3% | 2022: LUIZ 56%, JAIR 39%
+   RN PASSAGEM                 ['z_cresc'] aptos=4,547 val22=2,947 val26=3,640 biom>30%=0/13 | 2026: LUIZ 57%, FLAVIO 38%, AUGUSTO 3% | 2022: LUIZ 62%, JAIR 33%
+   RN SERRA NEGRA DO NORTE     ['z_swing'] aptos=6,262 val22=4,915 val26=4,872 biom>30%=0/22 | 2026: LUIZ 55%, FLAVIO 41%, AUGUSTO 2% | 2022: LUIZ 68%, JAIR 27%
+   RS XANGRI-LÁ                ['z_cresc'] aptos=14,765 val22=9,639 val26=11,455 biom>30%=0/42 | 2026: FLAVIO 67%, LUIZ 25%, AUGUSTO 3% | 2022: JAIR 60%, LUIZ 32%
+   RS HERVEIRAS                ['z_swing'] aptos=2,629 val22=2,081 val26=2,015 biom>30%=0/10 | 2026: FLAVIO 54%, LUIZ 39%, RONALDO 3% | 2022: LUIZ 63%, JAIR 32%
+   SC MACIEIRA                 ['z_cresc'] aptos=2,360 val22=1,441 val26=1,869 biom>30%=0/7 | 2026: FLAVIO 59%, LUIZ 35%, RONALDO 2% | 2022: LUIZ 48%, JAIR 46%
+   SC BALNEÁRIO GAIVOTA        ['z_cresc'] aptos=12,988 val22=7,758 val26=9,630 biom>30%=0/37 | 2026: FLAVIO 64%, LUIZ 29%, AUGUSTO 4% | 2022: JAIR 58%, LUIZ 35%
+   SC PASSO DE TORRES          ['z_cresc'] aptos=9,128 val22=5,592 val26=7,010 biom>30%=0/26 | 2026: FLAVIO 64%, LUIZ 28%, AUGUSTO 3% | 2022: JAIR 57%, LUIZ 36%
+   SC BALNEÁRIO PIÇARRAS       ['z_cresc'] aptos=23,277 val22=14,018 val26=17,210 biom>30%=1/69 | 2026: FLAVIO 70%, LUIZ 23%, AUGUSTO 3% | 2022: JAIR 68%, LUIZ 26%
+   SE BARRA DOS COQUEIROS      ['z_cresc'] aptos=31,707 val22=19,057 val26=25,000 biom>30%=0/112 | 2026: LUIZ 58%, FLAVIO 35%, AUGUSTO 3% | 2022: LUIZ 58%, JAIR 34%
+   SP UBIRAJARA                ['z_biom'] aptos=3,995 val22=3,046 val26=2,883 biom>30%=0/12 | 2026: FLAVIO 60%, LUIZ 35%, AUGUSTO 2% | 2022: JAIR 53%, LUIZ 43%
+   SP SANTO EXPEDITO           ['z_biom'] aptos=2,682 val22=2,062 val26=1,948 biom>30%=0/9 | 2026: FLAVIO 55%, LUIZ 40%, AUGUSTO 2% | 2022: JAIR 49%, LUIZ 46%
+   SP RUBINÉIA                 ['z_cresc'] aptos=3,917 val22=2,318 val26=2,844 biom>30%=0/12 | 2026: FLAVIO 63%, LUIZ 31%, AUGUSTO 2% | 2022: JAIR 57%, LUIZ 37%
+   SP MACAUBAL                 ['z_biom'] aptos=5,924 val22=4,627 val26=4,614 biom>30%=0/18 | 2026: FLAVIO 69%, LUIZ 25%, AUGUSTO 3% | 2022: JAIR 64%, LUIZ 28%
+   SP SANTANA DA PONTE PENSA   ['z_cresc'] aptos=1,925 val22=1,162 val26=1,371 biom>30%=0/6 | 2026: FLAVIO 60%, LUIZ 33%, AUGUSTO 3% | 2022: JAIR 54%, LUIZ 39%
+   SP ITAPIRAPUÃ PAULISTA      ['z_swing'] aptos=3,305 val22=2,443 val26=2,404 biom>30%=0/10 | 2026: FLAVIO 55%, LUIZ 41%, AUGUSTO 2% | 2022: LUIZ 57%, JAIR 37%
+   SP BADY BASSITT             ['z_cresc'] aptos=16,956 val22=10,868 val26=12,575 biom>30%=0/49 | 2026: FLAVIO 66%, LUIZ 26%, AUGUSTO 3% | 2022: JAIR 64%, LUIZ 29%
+   SP SANDOVALINA              ['z_cresc'] aptos=4,876 val22=2,556 val26=3,312 biom>30%=0/14 | 2026: LUIZ 59%, FLAVIO 36%, AUGUSTO 2% | 2022: LUIZ 61%, JAIR 34%

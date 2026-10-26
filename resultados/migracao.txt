@@ -1,0 +1,69 @@
+5571 municipios; não encerrados 0; 2T não fecha em 0
+ganho Lula 10.333.927 | ganho Flávio 3.693.941 | parcela Lula 74%
+eliminados 9.292.275 (direita 5.590.906, Cury 3.438.835) | brancos/nulos 5.959.040 -> 4.144.009 | comparecimento 124.934.069 -> 127.854.631
+alertas: {'Flávio perdeu votos': 938, 'Lula perdeu votos': 79, 'Lula ganhou mais que o bolo': 290, 'salto de comparecimento': 14, '2º turno não fecha': 0}
+
+parcela do Lula no bolo, pela fração de direita entre os eliminados do município:
+   direita 0–20%    municípios=    4 parcela Lula=68% comparecimento +1.3 pp
+   direita 20–40%   municípios=  270 parcela Lula=91% comparecimento +1.0 pp
+   direita 40–50%   municípios= 1030 parcela Lula=87% comparecimento +1.8 pp
+   direita 50–60%   municípios= 2228 parcela Lula=76% comparecimento +2.1 pp
+   direita 60–70%   municípios= 1451 parcela Lula=69% comparecimento +2.0 pp
+   direita 70–80%   municípios=  162 parcela Lula=67% comparecimento +1.8 pp
+   direita 80–100%  municípios=  250 parcela Lula=57% comparecimento +0.9 pp
+
+por UF:
+   AC ganho Lula      9.743 Flávio    -15.092 (direita elim.    17.147, Cury   13.523, Δcomp   -34.676) parcela Lula 974300%
+   AL ganho Lula    157.162 Flávio      8.422 (direita elim.    42.217, Cury   42.427, Δcomp    13.204) parcela Lula 95%
+   AM ganho Lula     98.787 Flávio     -1.519 (direita elim.    65.502, Cury   77.531, Δcomp   -42.490) parcela Lula 102%
+   AP ganho Lula     10.465 Flávio    -13.604 (direita elim.    19.987, Cury   19.057, Δcomp   -46.587) parcela Lula 1046500%
+   BA ganho Lula    820.487 Flávio    166.176 (direita elim.   246.720, Cury  195.451, Δcomp   368.446) parcela Lula 83%
+   CE ganho Lula    480.861 Flávio     62.628 (direita elim.   157.501, Cury  140.524, Δcomp   114.372) parcela Lula 88%
+   DF ganho Lula    149.597 Flávio     69.926 (direita elim.   136.705, Cury   45.979, Δcomp    36.884) parcela Lula 68%
+   ES ganho Lula    151.937 Flávio     61.310 (direita elim.    98.206, Cury   65.121, Δcomp    56.932) parcela Lula 71%
+   GO ganho Lula    396.675 Flávio    293.446 (direita elim.   528.818, Cury   53.849, Δcomp    75.693) parcela Lula 57%
+   MA ganho Lula    241.930 Flávio     -9.069 (direita elim.   115.126, Cury   84.830, Δcomp   -32.572) parcela Lula 104%
+   MG ganho Lula  1.162.163 Flávio    464.238 (direita elim.   576.039, Cury  409.737, Δcomp   406.929) parcela Lula 71%
+   MS ganho Lula    112.118 Flávio     54.541 (direita elim.    57.930, Cury   39.148, Δcomp    53.240) parcela Lula 67%
+   MT ganho Lula    112.486 Flávio     52.518 (direita elim.    68.673, Cury   40.019, Δcomp    33.201) parcela Lula 68%
+   PA ganho Lula    263.212 Flávio     35.983 (direita elim.   139.220, Cury  125.172, Δcomp   -76.931) parcela Lula 88%
+   PB ganho Lula    252.932 Flávio     33.833 (direita elim.    63.746, Cury   73.831, Δcomp    59.572) parcela Lula 88%
+   PE ganho Lula    563.542 Flávio     94.511 (direita elim.   165.101, Cury  137.960, Δcomp   215.405) parcela Lula 86%
+   PI ganho Lula    130.279 Flávio      8.831 (direita elim.    55.260, Cury   47.692, Δcomp    -1.053) parcela Lula 94%
+   PR ganho Lula    511.907 Flávio    346.099 (direita elim.   365.900, Cury  205.095, Δcomp   217.882) parcela Lula 60%
+   RJ ganho Lula    872.372 Flávio    202.189 (direita elim.   433.594, Cury  247.397, Δcomp   217.647) parcela Lula 81%
+   RN ganho Lula    175.633 Flávio     16.916 (direita elim.    53.193, Cury   57.367, Δcomp    61.810) parcela Lula 91%
+   RO ganho Lula     43.779 Flávio     21.394 (direita elim.    37.434, Cury   25.280, Δcomp    -2.591) parcela Lula 67%
+   RR ganho Lula      9.085 Flávio    -11.647 (direita elim.    10.599, Cury    8.579, Δcomp   -24.175) parcela Lula 908500%
+   RS ganho Lula    529.793 Flávio    300.595 (direita elim.   345.367, Cury  195.296, Δcomp   186.735) parcela Lula 64%
+   SC ganho Lula    291.146 Flávio    220.051 (direita elim.   229.424, Cury  134.273, Δcomp   114.144) parcela Lula 57%
+   SE ganho Lula    133.022 Flávio     15.515 (direita elim.    49.214, Cury   38.895, Δcomp    27.577) parcela Lula 90%
+   SP ganho Lula  2.613.861 Flávio  1.217.155 (direita elim. 1.478.516, Cury  892.368, Δcomp   932.397) parcela Lula 68%
+   TO ganho Lula     38.953 Flávio     -1.405 (direita elim.    33.767, Cury   22.434, Δcomp   -10.433) parcela Lula 104%
+
+municípios com alerta:
+   SP-69574  RIBEIRA                  ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 1.084->1.068 Flávio 955->933 comp 2.212->2.045 elim 88
+   MA-8850   PRIMEIRA CRUZ            ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 7.136->6.611 Flávio 1.408->1.083 comp 9.220->7.817 elim 307
+   MA-7994   ICATU                    ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 14.496->13.528 Flávio 3.547->2.878 comp 19.268->16.685 elim 652
+   MA-8249   SANTO AMARO DO MARANHÃO  ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 8.084->7.562 Flávio 1.987->1.715 comp 10.920->9.480 elim 459
+   MA-8109   PORTO RICO DO MARANHÃO   ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 3.587->3.440 Flávio 1.362->1.078 comp 5.325->4.582 elim 239
+   MT-90565  JANGADA                  ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 2.967->2.960 Flávio 2.682->2.509 comp 6.087->5.564 elim 265
+   MT-90310  BARÃO DE MELGAÇO         ['Flávio perdeu votos', 'Lula perdeu votos', 'salto de comparecimento'] Lula 3.158->3.147 Flávio 2.064->1.940 comp 5.630->5.160 elim 262
+   PE-30015  FERNANDO DE NORONHA      ['Flávio perdeu votos', 'salto de comparecimento'] Lula 1.153->1.243 Flávio 1.019->971 comp 2.463->2.265 elim 182
+   MG-53317  SERRA DA SAUDADE         ['Flávio perdeu votos', 'salto de comparecimento'] Lula 360->380 Flávio 531->527 comp 989->931 elim 72
+   MG-44911  ESTRELA DALVA            ['Flávio perdeu votos', 'salto de comparecimento'] Lula 1.179->1.247 Flávio 761->758 comp 2.173->2.065 elim 124
+   MT-91618  TESOURO                  ['Flávio perdeu votos', 'salto de comparecimento'] Lula 879->899 Flávio 1.024->961 comp 2.101->1.917 elim 132
+   MA-9415   TURIAÇU                  ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 16.792->16.075 Flávio 4.502->3.942 comp 22.760->20.310 elim 802
+   MA-7595   CEDRAL                   ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 5.405->5.347 Flávio 1.497->1.290 comp 7.573->6.816 elim 338
+   PA-4219   BAGRE                    ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 9.427->8.680 Flávio 2.849->2.615 comp 13.159->11.435 elim 349
+   PI-11258  MIGUEL LEÃO              ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 1.001->914 Flávio 514->505 comp 1.630->1.455 elim 47
+   MA-7978   HUMBERTO DE CAMPOS       ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 13.787->13.695 Flávio 3.292->2.771 comp 18.570->16.808 elim 764
+   AC-1066   PORTO WALTER             ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 3.208->2.421 Flávio 2.780->2.123 comp 6.520->4.792 elim 308
+   MA-9172   SÃO JOÃO BATISTA         ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 12.009->11.661 Flávio 2.214->1.746 comp 15.087->13.643 elim 412
+   PE-24473  ITACURUBA                ['Flávio perdeu votos', 'Lula ganhou mais que o bolo'] Lula 3.081->3.290 Flávio 507->441 comp 3.796->3.784 elim 100
+   PE-23329  SANTA FILOMENA           ['Flávio perdeu votos', 'Lula ganhou mais que o bolo'] Lula 7.455->8.130 Flávio 1.575->1.518 comp 9.822->9.835 elim 438
+   AC-1040   MARECHAL THAUMATURGO     ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 3.365->2.706 Flávio 5.369->4.017 comp 9.352->7.051 elim 344
+   PA-4499   CHAVES                   ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 7.098->6.899 Flávio 3.305->3.002 comp 11.487->10.065 elim 423
+   MA-7226   CACHOEIRA GRANDE         ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 5.206->5.132 Flávio 1.417->1.210 comp 7.010->6.449 elim 202
+   PA-4898   MELGAÇO                  ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 9.241->9.030 Flávio 4.952->4.481 comp 15.307->13.708 elim 455
+   MA-7455   CAJAPIÓ                  ['Flávio perdeu votos', 'Lula perdeu votos'] Lula 6.114->6.097 Flávio 957->814 comp 7.606->7.038 elim 211

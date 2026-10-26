@@ -1,0 +1,22 @@
+
+BRASIL (5571 municipios): fracao de cada origem que foi para cada finalista
+   AUGUSTO JORGE CURY                   3,438,835  -> Flávio -0.36 (±0.23)   -> Lula -0.28 (±0.24)
+   RENAN ANTONIO FERREIRA DOS SANTOS    2,667,307  -> Flávio +1.37 (±0.38)   -> Lula -0.17 (±0.31)
+   RONALDO RAMOS CAIADO                 2,600,440  -> Flávio +0.49 (±0.10)   -> Lula +0.35 (±0.08)
+   ROMEU ZEMA NETO                        323,159  -> Flávio +2.03 (±0.29)   -> Lula +0.88 (±0.24)
+   demais eliminados                      262,534  -> Flávio -2.42 (±2.24)   -> Lula +5.48 (±2.80)
+   brancos e nulos do 1T                5,959,040  -> Flávio +0.18 (±0.18)   -> Lula +1.02 (±0.17)
+   base Lula 1T (comparecimento)       53,722,151  -> Flávio -0.03 (±0.02)   -> Lula +0.07 (±0.01)
+   base Flávio 1T (comparecimento)     55,960,603  -> Flávio +0.01 (±0.01)   -> Lula +0.00 (±0.01)
+
+GOIAS (246 municipios): fracao de cada origem que foi para cada finalista
+   AUGUSTO JORGE CURY                      53,849  -> Flávio +0.47 (±0.33)   -> Lula +0.78 (±0.70)
+   RENAN ANTONIO FERREIRA DOS SANTOS       54,105  -> Flávio +0.38 (±0.38)   -> Lula +1.00 (±0.58)
+   RONALDO RAMOS CAIADO                   472,041  -> Flávio +0.59 (±0.04)   -> Lula +0.34 (±0.05)
+   ROMEU ZEMA NETO                          2,672  -> Flávio +0.20 (±4.84)   -> Lula +3.18 (±7.53)
+   demais eliminados                        4,495  -> Flávio +4.82 (±4.56)   -> Lula -13.96 (±5.83)
+   brancos e nulos do 1T                  143,657  -> Flávio +0.22 (±0.24)   -> Lula +1.11 (±0.29)
+   base Lula 1T (comparecimento)        1,188,880  -> Flávio -0.12 (±0.01)   -> Lula +0.15 (±0.02)
+   base Flávio 1T (comparecimento)      2,051,888  -> Flávio +0.03 (±0.01)   -> Lula -0.06 (±0.02)
+
+Goiás totais: Caiado 1T 472,041 | Lula 1,188,880 -> 1,585,555 (+396,675) | Flávio 2,051,888 -> 2,345,334 (+293,446)

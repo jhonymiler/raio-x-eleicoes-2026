@@ -1,0 +1,6 @@
+perfil: 514,070 secoes; locais: 517,179
+secoes no modelo: 411,209
+so_biometria     biom: +8.39pp por 100% (z=+36.6)
+biometria_idade  biom: +0.27pp por 100% (z=+1.3)  i60: +7.55pp por 100% (z=+110.8)
+completo         biom: +0.11pp por 100% (z=+0.5)  i60: +7.70pp por 100% (z=+113.2)  sup: +6.92pp por 100% (z=+30.7)  semb: -3.65pp por 100% (z=-28.0)
+liberacao sem digital ~ idade60: coef=+0.108 z=+212.0

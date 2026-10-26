@@ -1,0 +1,22 @@
+BALANCO 1T -> 2T (Presidente, Brasil + exterior)
+  aptos               1T  158.745.007   2T  158.745.502
+  comparecimento      1T  125.275.835   2T  128.236.074   dif   2.960.239
+  Lula                1T   53.879.538   2T   64.256.232   dif  10.376.694
+  Flávio              1T   56.104.503   2T   59.826.041   dif   3.721.538
+  brancos + nulos     1T    5.969.801   2T    4.153.801   dif  -1.816.000
+  eliminados (todos)  1T    9.321.993
+     AUGUSTO JORGE CURY                 3.448.569
+     RENAN ANTONIO FERREIRA DOS SANTO   2.675.887
+     RONALDO RAMOS CAIADO               2.605.148
+     ROMEU ZEMA NETO                      326.488
+     SAMARA MARTINS DA SILVA FEITOSA      122.911
+     HERTZ DA CONCEICAO DIAS               43.103
+     CLARIANA ZACARKIM BARAO               40.043
+     EDMILSON SILVA COSTA                  22.693
+     WILSON GRASSI JUNIOR                  16.881
+     RUI COSTA PIMENTA                     15.024
+     LEONARDO ALVES DE ARAUJO               5.246
+
+  votos 'livres' no 2T (eliminados + brancos/nulos do 1T - brancos/nulos do 2T): 11.137.993
+  + variação do comparecimento: 2.960.239
+  ganho Lula 10.376.694 (74% do ganho dos dois) | ganho Flávio 3.721.538 (26%)

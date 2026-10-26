@@ -1,0 +1,118 @@
+1994 papel               5019 mun  base MAD=0.0091 exc=6.0
+    FERNANDO HENRIQUE CARD share=54.3% n= 5019 MAD=0.0108 aceitavel            p=1.1e-08 exc=  4.6 razao=1.07 nao_se_aplica
+    LUIZ INACIO LULA DA SI share=27.0% n= 5019 MAD=0.0019 conformidade proxima p=9.0e-01 exc=  0.6 razao=0.26 segue
+    ENEAS FERREIRA CARNEIR share= 7.4% n= 5019 MAD=0.0038 conformidade proxima p=3.4e-01 exc=  2.1 razao=2.10 segue
+    ORESTES QUERCIA        share= 4.4% n= 5019 MAD=0.0056 conformidade proxima p=2.5e-02 exc=  2.5 razao=1.86 segue
+    LEONEL DE MOURA BRIZOL share= 3.2% n= 5015 MAD=0.0043 conformidade proxima p=2.4e-01 exc=  1.9 razao=1.24 segue
+    ESPERIDIAO AMIN HELOU  share= 2.7% n= 5016 MAD=0.0046 conformidade proxima p=2.0e-01 exc=  2.3 razao=0.95 segue
+    CARLOS ANTONIO GOMES   share= 0.6% n= 5016 MAD=0.0036 conformidade proxima p=4.5e-01 exc=  1.3 razao=0.97 segue
+    HERNANI GOULART FORTUN share= 0.4% n= 4996 MAD=0.0062 aceitavel            p=2.0e-02 exc=  2.3 razao=0.86 segue
+    estados 45: desvio=4 ['MA', 'PE', 'PR', 'RN']  nao_se_aplica=3  poucos=11  segue=9
+    estados 13: poucos=11  segue=16
+1998 misto               5513 mun  base MAD=0.0114 exc=7.4
+    FERNANDO HENRIQUE      share=53.1% n= 5513 MAD=0.0112 aceitavel            p=1.3e-12 exc=  5.7 razao=1.01 nao_se_aplica
+    LULA                   share=31.7% n= 5513 MAD=0.0020 conformidade proxima p=9.7e-01 exc=  0.8 razao=0.32 segue
+    CIRO GOMES             share=11.0% n= 5513 MAD=0.0057 conformidade proxima p=6.7e-03 exc=  3.1 razao=1.09 nao_se_aplica
+    ENÉAS                  share= 2.1% n= 5513 MAD=0.0092 aceitavel            p=1.0e-07 exc=  4.0 razao=1.81 nao_se_aplica
+    BRIGADEIRO IVAN FROTA  share= 0.4% n= 5503 MAD=0.0058 conformidade proxima p=8.9e-03 exc=  3.3 razao=1.98 nao_se_aplica
+    SIRKIS                 share= 0.3% n= 5483 MAD=0.0056 conformidade proxima p=2.2e-02 exc=  1.6 razao=0.70 segue
+    ZÉ MARIA               share= 0.3% n= 5484 MAD=0.0045 conformidade proxima p=3.1e-02 exc=  1.7 razao=0.88 segue
+    JOÃO DE DEUS BARBOSA   share= 0.3% n= 5495 MAD=0.0053 conformidade proxima p=4.3e-02 exc=  2.0 razao=0.64 segue
+    EYMAEL                 share= 0.3% n= 5459 MAD=0.0074 aceitavel            p=7.2e-05 exc=  2.9 razao=1.00 segue
+    THEREZA RUIZ           share= 0.2% n= 5458 MAD=0.0087 aceitavel            p=1.1e-05 exc=  4.3 razao=1.34 nao_se_aplica
+    SERGIO BUENO           share= 0.2% n= 5404 MAD=0.0048 conformidade proxima p=1.1e-01 exc=  2.5 razao=1.20 segue
+    VASCO NETO             share= 0.2% n= 5434 MAD=0.0037 conformidade proxima p=2.2e-01 exc=  1.5 razao=0.70 segue
+    estados 45: desvio=1 ['TO']  nao_se_aplica=7  poucos=11  segue=8
+    estados 13: poucos=11  segue=16
+2002 urna                5565 mun  base MAD=0.0111 exc=6.8
+    LULA                   share=46.4% n= 5565 MAD=0.0092 aceitavel            p=7.0e-08 exc=  4.6 razao=0.95 nao_se_aplica
+    JOSÉ SERRA             share=23.2% n= 5565 MAD=0.0104 aceitavel            p=1.1e-09 exc=  5.6 razao=1.75 nao_se_aplica
+    GAROTINHO              share=17.9% n= 5565 MAD=0.0038 conformidade proxima p=3.0e-01 exc=  1.8 razao=0.80 segue
+    CIRO                   share=12.0% n= 5565 MAD=0.0044 conformidade proxima p=6.9e-02 exc=  1.9 razao=1.05 segue
+    ZÉ MARIA               share= 0.5% n= 5450 MAD=0.0035 conformidade proxima p=4.2e-01 exc=  1.8 razao=1.77 segue
+    RUI COSTA PIMENTA      share= 0.0% n= 4105 MAD=0.0272 NAO CONFORMIDADE     p=3.8e-63 exc=  7.1 razao=6.31 nao_se_aplica
+    estados 13: nao_se_aplica=4  poucos=11  segue=12
+    estados 45: desvio=1 ['BA']  nao_se_aplica=4  poucos=11  segue=11
+2006 urna                5565 mun  base MAD=0.0107 exc=5.4
+    LULA                   share=48.6% n= 5565 MAD=0.0036 conformidade proxima p=3.0e-01 exc=  0.8 razao=0.25 segue
+    GERALDO ALCKMIN        share=41.6% n= 5565 MAD=0.0099 aceitavel            p=7.1e-12 exc=  5.7 razao=2.18 nao_se_aplica
+    HELOÍSA HELENA         share= 6.8% n= 5565 MAD=0.0088 aceitavel            p=3.1e-10 exc=  4.3 razao=3.46 nao_se_aplica
+    CRISTOVAM BUARQUE      share= 2.6% n= 5565 MAD=0.0016 conformidade proxima p=9.6e-01 exc=  0.5 razao=0.20 segue
+    ANA MARIA RANGEL       share= 0.1% n= 5404 MAD=0.0046 conformidade proxima p=1.5e-01 exc=  3.6 razao=2.15 nao_se_aplica
+    JOSÉ MARIA EYMAEL      share= 0.1% n= 4104 MAD=0.0256 NAO CONFORMIDADE     p=2.1e-54 exc=  8.7 razao=10.41 nao_se_aplica
+    LUCIANO BIVAR          share= 0.1% n= 4727 MAD=0.0156 NAO CONFORMIDADE     p=6.1e-29 exc=  3.4 razao=2.69 nao_se_aplica
+    estados 13: desvio=3 ['MT', 'PB', 'TO']  nao_se_aplica=6  poucos=11  segue=7
+    estados 45: nao_se_aplica=4  poucos=11  segue=12
+2010 urna                5594 mun  base MAD=0.0114 exc=5.7
+    DILMA                  share=46.9% n= 5594 MAD=0.0052 conformidade proxima p=7.0e-02 exc=  2.7 razao=0.68 segue
+    JOSÉ SERRA             share=32.6% n= 5594 MAD=0.0087 aceitavel            p=1.8e-06 exc=  5.2 razao=2.00 nao_se_aplica
+    MARINA SILVA           share=19.3% n= 5594 MAD=0.0064 aceitavel            p=7.9e-05 exc=  3.6 razao=2.28 nao_se_aplica
+    PLÍNIO                 share= 0.9% n= 5564 MAD=0.0046 conformidade proxima p=1.6e-01 exc=  2.1 razao=2.19 segue
+    EYMAEL                 share= 0.1% n= 4722 MAD=0.0131 marginal             p=1.3e-18 exc=  3.5 razao=4.21 nao_se_aplica
+    ZÉ MARIA               share= 0.1% n= 4764 MAD=0.0113 aceitavel            p=2.4e-18 exc=  2.5 razao=1.85 segue
+    LEVY FIDELIX           share= 0.1% n= 4718 MAD=0.0157 NAO CONFORMIDADE     p=1.2e-26 exc=  3.2 razao=3.46 nao_se_aplica
+    IVAN PINHEIRO          share= 0.0% n= 4434 MAD=0.0209 NAO CONFORMIDADE     p=5.9e-41 exc=  5.1 razao=4.61 nao_se_aplica
+    RUI COSTA PIMENTA      share= 0.0% n= 2644 MAD=0.0617 NAO CONFORMIDADE     p=3.3e-217 exc= 18.4 razao=44.11 nao_se_aplica
+    estados 13: desvio=1 ['CE']  nao_se_aplica=8  poucos=12  segue=7
+    estados 45: nao_se_aplica=4  poucos=12  segue=12
+2014 urna                5570 mun  base MAD=0.0110 exc=5.4
+    DILMA                  share=41.6% n= 5570 MAD=0.0054 conformidade proxima p=8.8e-04 exc=  1.4 razao=0.47 segue
+    AÉCIO NEVES            share=33.5% n= 5570 MAD=0.0071 aceitavel            p=1.9e-06 exc=  4.4 razao=2.33 nao_se_aplica
+    MARINA SILVA           share=21.3% n= 5570 MAD=0.0045 conformidade proxima p=1.3e-01 exc=  2.8 razao=1.84 segue
+    LUCIANA GENRO          share= 1.5% n= 5517 MAD=0.0028 conformidade proxima p=5.4e-01 exc=  0.8 razao=2.21 segue
+    PASTOR EVERALDO        share= 0.8% n= 5527 MAD=0.0039 conformidade proxima p=1.8e-01 exc=  2.1 razao=2.28 segue
+    EDUARDO JORGE          share= 0.6% n= 5456 MAD=0.0034 conformidade proxima p=4.6e-01 exc=  2.4 razao=17.00 segue
+    LEVY FIDELIX           share= 0.4% n= 5425 MAD=0.0046 conformidade proxima p=1.1e-01 exc=  3.1 razao=3.36 nao_se_aplica
+    ZÉ MARIA               share= 0.1% n= 4562 MAD=0.0178 NAO CONFORMIDADE     p=9.7e-31 exc=  5.2 razao=5.50 nao_se_aplica
+    EYMAEL                 share= 0.1% n= 4002 MAD=0.0274 NAO CONFORMIDADE     p=2.9e-63 exc=  9.2 razao=12.10 nao_se_aplica
+    MAURO IASI             share= 0.0% n= 4205 MAD=0.0239 NAO CONFORMIDADE     p=4.1e-56 exc=  7.6 razao=6.36 nao_se_aplica
+    RUI COSTA PIMENTA      share= 0.0% n= 2285 MAD=0.0666 NAO CONFORMIDADE     p=1.5e-204 exc= 19.0 razao=43.48 nao_se_aplica
+    estados 13: desvio=3 ['PB', 'SC', 'TO']  nao_se_aplica=9  poucos=11  segue=4
+    estados 45: desvio=2 ['BA', 'TO']  nao_se_aplica=3  poucos=11  segue=11
+2018 urna                5570 mun  base MAD=0.0103 exc=5.0
+    JAIR BOLSONARO         share=46.0% n= 5570 MAD=0.0099 aceitavel            p=2.4e-08 exc=  4.8 razao=2.93 nao_se_aplica
+    FERNANDO HADDAD        share=29.3% n= 5570 MAD=0.0031 conformidade proxima p=4.2e-01 exc=  1.5 razao=1.24 segue
+    CIRO GOMES             share=12.5% n= 5570 MAD=0.0039 conformidade proxima p=2.0e-01 exc=  1.4 razao=0.63 segue
+    GERALDO ALCKMIN        share= 4.8% n= 5570 MAD=0.0060 aceitavel            p=2.1e-03 exc=  2.3 razao=3.67 segue
+    JOÃO AMOÊDO            share= 2.5% n= 5558 MAD=0.0019 conformidade proxima p=9.6e-01 exc=  0.6 razao=0.75 segue
+    CABO DACIOLO           share= 1.3% n= 5529 MAD=0.0023 conformidade proxima p=5.8e-01 exc=  0.6 razao=0.66 segue
+    HENRIQUE MEIRELLES     share= 1.2% n= 5570 MAD=0.0036 conformidade proxima p=5.3e-01 exc=  1.5 razao=1.44 segue
+    MARINA SILVA           share= 1.0% n= 5534 MAD=0.0068 aceitavel            p=7.4e-04 exc=  3.3 razao=3.03 nao_se_aplica
+    ALVARO DIAS            share= 0.8% n= 5539 MAD=0.0046 conformidade proxima p=1.5e-01 exc=  1.9 razao=3.51 segue
+    GUILHERME BOULOS       share= 0.6% n= 5524 MAD=0.0055 conformidade proxima p=3.1e-02 exc=  2.8 razao=1.84 segue
+    VERA                   share= 0.1% n= 4330 MAD=0.0239 NAO CONFORMIDADE     p=2.2e-54 exc=  6.1 razao=5.78 nao_se_aplica
+    EYMAEL                 share= 0.0% n= 3840 MAD=0.0306 NAO CONFORMIDADE     p=1.9e-74 exc=  9.7 razao=16.53 nao_se_aplica
+    JOÃO GOULART FILHO     share= 0.0% n= 3715 MAD=0.0390 NAO CONFORMIDADE     p=2.2e-118 exc= 12.6 razao=17.14 nao_se_aplica
+    estados 17: desvio=1 ['MG']  nao_se_aplica=2  poucos=11  segue=13
+    estados 13: desvio=2 ['MA', 'TO']  nao_se_aplica=5  poucos=11  segue=9
+2022 urna                5570 mun  base MAD=0.0102 exc=5.0
+    LUIZ INÁCIO LULA DA SI share=48.4% n= 5570 MAD=0.0038 conformidade proxima p=2.7e-01 exc=  1.5 razao=0.49 segue
+    JAIR MESSIAS BOLSONARO share=43.2% n= 5570 MAD=0.0098 aceitavel            p=2.1e-09 exc=  5.4 razao=2.93 nao_se_aplica
+    SIMONE NASSAR TEBET    share= 4.2% n= 5570 MAD=0.0113 aceitavel            p=2.8e-11 exc=  5.5 razao=3.47 nao_se_aplica
+    CIRO FERREIRA GOMES    share= 3.0% n= 5570 MAD=0.0033 conformidade proxima p=4.5e-01 exc=  1.9 razao=0.66 segue
+    SORAYA VIEIRA THRONICK share= 0.5% n= 5550 MAD=0.0044 conformidade proxima p=1.8e-01 exc=  2.1 razao=1.70 segue
+    LUIZ FELIPE CHAVES D A share= 0.5% n= 5368 MAD=0.0050 conformidade proxima p=7.5e-03 exc=  0.2 razao=0.32 segue
+    KELMON LUIS DA SILVA S share= 0.1% n= 5100 MAD=0.0060 aceitavel            p=3.8e-04 exc=  3.2 razao=2.42 nao_se_aplica
+    LEONARDO PÉRICLES VIEI share= 0.0% n= 3252 MAD=0.0457 NAO CONFORMIDADE     p=2.3e-140 exc= 14.0 razao=30.66 nao_se_aplica
+    SOFIA PADUA MANZANO    share= 0.0% n= 3931 MAD=0.0324 NAO CONFORMIDADE     p=2.6e-84 exc=  9.1 razao=8.06 nao_se_aplica
+    VERA LUCIA PEREIRA DA  share= 0.0% n= 3089 MAD=0.0518 NAO CONFORMIDADE     p=4.3e-171 exc= 15.2 razao=20.21 nao_se_aplica
+    JOSE MARIA EYMAEL      share= 0.0% n= 2616 MAD=0.0544 NAO CONFORMIDADE     p=1.7e-161 exc= 15.8 razao=31.02 nao_se_aplica
+    estados 13: desvio=2 ['CE', 'PR']  nao_se_aplica=10  poucos=11  segue=4
+    estados 22: nao_se_aplica=6  poucos=11  segue=10
+2026 urna                5571 mun  base MAD=0.0101 exc=5.0
+    FLAVIO NANTES BOLSONAR share=47.0% n= 5571 MAD=0.0114 aceitavel            p=3.6e-15 exc=  6.5 razao=2.88 nao_se_aplica
+    LUIZ INÁCIO LULA DA SI share=45.2% n= 5571 MAD=0.0033 conformidade proxima p=1.2e-01 exc=  1.6 razao=0.65 segue
+    AUGUSTO JORGE CURY     share= 2.9% n= 5571 MAD=0.0083 aceitavel            p=4.8e-05 exc=  3.8 razao=1.28 nao_se_aplica
+    RENAN ANTONIO FERREIRA share= 2.2% n= 5571 MAD=0.0065 aceitavel            p=4.7e-03 exc=  3.2 razao=1.29 nao_se_aplica
+    RONALDO RAMOS CAIADO   share= 2.2% n= 5571 MAD=0.0072 aceitavel            p=6.2e-04 exc=  4.1 razao=2.80 nao_se_aplica
+    ROMEU ZEMA NETO        share= 0.3% n= 5160 MAD=0.0037 conformidade proxima p=1.8e-01 exc=  3.4 razao=12.53 nao_se_aplica
+    SAMARA MARTINS DA SILV share= 0.1% n= 4522 MAD=0.0174 NAO CONFORMIDADE     p=2.0e-28 exc=  5.6 razao=11.63 nao_se_aplica
+    HERTZ DA CONCEICAO DIA share= 0.0% n= 3376 MAD=0.0368 NAO CONFORMIDADE     p=3.4e-97 exc= 11.3 razao=16.84 nao_se_aplica
+    CLARIANA ZACARKIM BARA share= 0.0% n= 3607 MAD=0.0357 NAO CONFORMIDADE     p=5.3e-95 exc= 11.6 razao=15.99 nao_se_aplica
+    EDMILSON SILVA COSTA   share= 0.0% n= 3470 MAD=0.0430 NAO CONFORMIDADE     p=3.3e-133 exc= 12.8 razao=13.79 nao_se_aplica
+    WILSON GRASSI JUNIOR   share= 0.0% n= 2509 MAD=0.0551 NAO CONFORMIDADE     p=1.7e-156 exc= 15.6 razao=26.23 nao_se_aplica
+    RUI COSTA PIMENTA      share= 0.0% n= 2184 MAD=0.0588 NAO CONFORMIDADE     p=3.7e-152 exc= 16.0 razao=30.76 nao_se_aplica
+    LEONARDO ALVES DE ARAU share= 0.0% n= 1628 MAD=0.0710 NAO CONFORMIDADE     p=7.1e-170 exc= 18.0 razao=69.96 nao_se_aplica
+    estados 22: nao_se_aplica=7  poucos=11  segue=9
+    estados 13: desvio=2 ['CE', 'SP']  nao_se_aplica=11  poucos=11  segue=3
+-> resultados/historico.json

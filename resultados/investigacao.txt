@@ -1,0 +1,100 @@
+lendo 28 arquivos de BU...
+  AC: 2,270 secoes
+  AL: 7,101 secoes
+  AM: 8,157 secoes
+  AP: 1,914 secoes
+  BA: 35,476 secoes
+  CE: 23,765 secoes
+  DF: 6,969 secoes
+  ES: 9,844 secoes
+  GO: 15,686 secoes
+  MA: 18,093 secoes
+  MG: 52,062 secoes
+  MS: 7,106 secoes
+  MT: 8,287 secoes
+  PA: 20,827 secoes
+  PB: 10,712 secoes
+  PE: 21,418 secoes
+  PI: 10,225 secoes
+  PR: 27,142 secoes
+  RJ: 37,675 secoes
+  RN: 8,115 secoes
+  RO: 4,698 secoes
+  RR: 1,519 secoes
+  RS: 27,547 secoes
+  SC: 17,326 secoes
+  SE: 5,923 secoes
+  SP: 103,656 secoes
+  TO: 4,384 secoes
+  ZZ: 1,309 secoes
+nivel 0: 3,800,511 registros BU, 3,800,511 totalizacao, 0 diferencas
+-> resultados/investigacao.json (4.3 MB)
+
+NIVEL 0  BU x totalizacao: 0 diferencas em 3,800,511 registros (499,206 secoes)
+         problemas de processo: {'abertura atrasada (> 30 min)': 955, 'apurada por cédula (sem urna)': 28}
+         secoes que destoam da escola (|z|>5.0): 185 de 451,803  (sd residuo=0.0377)
+         vies biometria: {'n_alto': 2350, 'n_baixo': 165054, 'media_alto': 0.006500558331663885, 'media_baixo': -0.0019958297382818733, 'z': 8.898915105935224}
+
+NIVEL 1  estados
+  AC secoes= 2,270 turn=0.796 Lula=0.287 (2022 0.293, z=+1.0) biom=0.050 ultdig p: L=  -   F=0.291 aptos=0.724 extremos L/F=0/0 escola=0 difs=0 prob=3
+  AL secoes= 7,101 turn=0.794 Lula=0.547 (2022 0.565, z=+0.5) biom=0.065 ultdig p: L=0.949 F=0.659 aptos=0.268 extremos L/F=1/0 escola=1 difs=0 prob=9
+  AM secoes= 8,157 turn=0.798 Lula=0.482 (2022 0.496, z=+0.7) biom=0.054 ultdig p: L=0.000 F=0.866 aptos=0.442 extremos L/F=7/0 escola=0 difs=0 prob=21
+  AP secoes= 1,914 turn=0.826 Lula=0.457 (2022 0.457, z=+1.2) biom=0.044 ultdig p: L=0.087 F=0.431 aptos=0.477 extremos L/F=0/0 escola=0 difs=0 prob=2
+  BA secoes=35,476 turn=0.800 Lula=0.662 (2022 0.697, z=-0.3) biom=0.073 ultdig p: L=0.471 F=0.000 aptos=0.527 extremos L/F=10/0 escola=14 difs=0 prob=100
+  CE secoes=23,765 turn=0.845 Lula=0.633 (2022 0.659, z=+0.1) biom=0.069 ultdig p: L=0.247 F=0.000 aptos=0.734 extremos L/F=6/0 escola=9 difs=0 prob=40
+  DF secoes= 6,969 turn=0.811 Lula=0.381 (2022 0.369, z=+1.8) biom=0.048 ultdig p: L=0.000 F=0.149 aptos=0.272 extremos L/F=0/0 escola=2 difs=0 prob=2
+  ES secoes= 9,844 turn=0.786 Lula=0.378 (2022 0.404, z=+0.1) biom=0.064 ultdig p: L=0.000 F=0.083 aptos=0.811 extremos L/F=0/0 escola=8 difs=0 prob=10
+  GO secoes=15,686 turn=0.782 Lula=0.311 (2022 0.395, z=-2.4) biom=0.068 ultdig p: L=0.000 F=0.499 aptos=0.426 extremos L/F=0/0 escola=6 difs=0 prob=13
+  MA secoes=18,093 turn=0.803 Lula=0.640 (2022 0.688, z=-0.8) biom=0.060 ultdig p: L=0.084 F=0.004 aptos=0.862 extremos L/F=11/0 escola=7 difs=0 prob=47
+  MG secoes=52,062 turn=0.772 Lula=0.433 (2022 0.483, z=-0.9) biom=0.067 ultdig p: L=0.000 F=0.000 aptos=0.907 extremos L/F=0/1 escola=22 difs=0 prob=83
+  MS secoes= 7,106 turn=0.761 Lula=0.347 (2022 0.390, z=-0.6) biom=0.078 ultdig p: L=0.000 F=0.006 aptos=0.985 extremos L/F=0/0 escola=1 difs=0 prob=19
+  MT secoes= 8,287 turn=0.778 Lula=0.292 (2022 0.344, z=-1.0) biom=0.067 ultdig p: L=0.033 F=0.517 aptos=0.104 extremos L/F=0/0 escola=5 difs=0 prob=80
+  PA secoes=20,827 turn=0.809 Lula=0.499 (2022 0.522, z=+0.3) biom=0.054 ultdig p: L=0.001 F=0.000 aptos=0.376 extremos L/F=15/1 escola=1 difs=0 prob=46
+  PB secoes=10,712 turn=0.826 Lula=0.613 (2022 0.642, z=+0.0) biom=0.070 ultdig p: L=0.649 F=0.392 aptos=0.428 extremos L/F=1/0 escola=1 difs=0 prob=10
+  PE secoes=21,418 turn=0.818 Lula=0.635 (2022 0.653, z=+0.5) biom=0.063 ultdig p: L=0.242 F=0.000 aptos=0.000 extremos L/F=1/0 escola=2 difs=0 prob=37
+  PI secoes=10,225 turn=0.828 Lula=0.710 (2022 0.743, z=-0.2) biom=0.087 ultdig p: L=0.599 F=0.011 aptos=0.441 extremos L/F=7/0 escola=3 difs=0 prob=37
+  PR secoes=27,142 turn=0.794 Lula=0.312 (2022 0.360, z=-0.8) biom=0.075 ultdig p: L=0.000 F=0.123 aptos=0.940 extremos L/F=0/0 escola=8 difs=0 prob=117
+  RJ secoes=37,675 turn=0.767 Lula=0.394 (2022 0.407, z=+0.7) biom=0.071 ultdig p: L=0.000 F=0.252 aptos=0.000 extremos L/F=0/0 escola=7 difs=0 prob=90
+  RN secoes= 8,115 turn=0.816 Lula=0.597 (2022 0.630, z=-0.1) biom=0.079 ultdig p: L=0.015 F=0.004 aptos=0.169 extremos L/F=0/0 escola=1 difs=0 prob=4
+  RO secoes= 4,698 turn=0.783 Lula=0.259 (2022 0.290, z=-0.1) biom=0.062 ultdig p: L=  -   F=0.252 aptos=0.863 extremos L/F=0/0 escola=2 difs=0 prob=3
+  RR secoes= 1,519 turn=0.829 Lula=0.229 (2022 0.230, z=+1.1) biom=0.038 ultdig p: L=  -   F=0.555 aptos=0.957 extremos L/F=2/0 escola=1 difs=0 prob=1
+  RS secoes=27,547 turn=0.786 Lula=0.357 (2022 0.423, z=-1.5) biom=0.082 ultdig p: L=0.000 F=0.001 aptos=0.863 extremos L/F=0/1 escola=19 difs=0 prob=28
+  SC secoes=17,326 turn=0.811 Lula=0.250 (2022 0.295, z=-0.7) biom=0.076 ultdig p: L=0.000 F=0.124 aptos=0.458 extremos L/F=0/0 escola=7 difs=0 prob=18
+  SE secoes= 5,923 turn=0.827 Lula=0.627 (2022 0.638, z=+0.8) biom=0.068 ultdig p: L=0.039 F=0.007 aptos=0.140 extremos L/F=0/0 escola=3 difs=0 prob=4
+  SP secoes=103,656 turn=0.775 Lula=0.382 (2022 0.409, z=+0.1) biom=0.060 ultdig p: L=0.000 F=0.000 aptos=0.000 extremos L/F=0/0 escola=37 difs=0 prob=130
+  TO secoes= 4,384 turn=0.817 Lula=0.434 (2022 0.504, z=-1.7) biom=0.053 ultdig p: L=0.000 F=0.380 aptos=0.413 extremos L/F=1/0 escola=6 difs=0 prob=1
+  ZZ secoes= 1,309 turn=0.373 Lula=0.475 (2022 0.000, z=+0.0) biom=0.000 ultdig p: L=0.160 F=0.878 aptos=0.000 extremos L/F=0/0 escola=12 difs=0 prob=28
+
+NIVEL 2  municipios com alerta
+  AP MACAPÁ                       ['z_swing'] swing=+0.024 turn=0.841 biom=0.043 cresc=+0.07
+  CE ITAITINGA                    ['z_cresc'] swing=-0.067 turn=0.868 biom=0.053 cresc=+0.26
+  GO ANHANGÜERA                   ['z_turn'] swing=-0.079 turn=0.629 biom=0.067 cresc=+0.20
+  MA ANAJATUBA                    ['z_biom'] swing=-0.043 turn=0.805 biom=0.122 cresc=+0.12
+  MA SÃO FRANCISCO DO MARANHÃO    ['z_biom'] swing=-0.040 turn=0.791 biom=0.115 cresc=+0.02
+  PA SÃO DOMINGOS DO CAPIM        ['z_biom'] swing=-0.008 turn=0.823 biom=0.139 cresc=+0.06
+  PA CANAÃ DOS CARAJÁS            ['z_cresc'] swing=-0.052 turn=0.750 biom=0.041 cresc=+0.49
+  PB VÁRZEA                       ['z_biom'] swing=-0.081 turn=0.869 biom=0.176 cresc=+0.10
+  PI BAIXA GRANDE DO RIBEIRO      ['z_swing'] swing=-0.152 turn=0.845 biom=0.060 cresc=+0.13
+  PI SÃO JULIÃO                   ['z_swing'] swing=+0.078 turn=0.845 biom=0.112 cresc=+0.09
+  PR SÃO JOÃO DO TRIUNFO          ['z_swing'] swing=-0.208 turn=0.827 biom=0.079 cresc=-0.01
+  RJ SAQUAREMA                    ['z_cresc'] swing=-0.030 turn=0.782 biom=0.066 cresc=+0.27
+  RJ MARICÁ                       ['z_cresc'] swing=-0.026 turn=0.779 biom=0.062 cresc=+0.26
+  RN TIBAU                        ['z_cresc'] swing=-0.092 turn=0.760 biom=0.082 cresc=+0.31
+  RN EXTREMOZ                     ['z_cresc'] swing=-0.054 turn=0.827 biom=0.050 cresc=+0.37
+  RN PASSAGEM                     ['z_cresc'] swing=-0.049 turn=0.841 biom=0.084 cresc=+0.24
+  RN SERRA NEGRA DO NORTE         ['z_swing'] swing=-0.131 turn=0.821 biom=0.114 cresc=-0.01
+  RS XANGRI-LÁ                    ['z_cresc'] swing=-0.073 turn=0.794 biom=0.115 cresc=+0.19
+  RS HERVEIRAS                    ['z_swing'] swing=-0.241 turn=0.798 biom=0.077 cresc=-0.03
+  SC MACIEIRA                     ['z_cresc'] swing=-0.136 turn=0.814 biom=0.087 cresc=+0.30
+  SC BALNEÁRIO GAIVOTA            ['z_cresc'] swing=-0.060 turn=0.764 biom=0.122 cresc=+0.24
+  SC PASSO DE TORRES              ['z_cresc'] swing=-0.076 turn=0.794 biom=0.108 cresc=+0.25
+  SC BALNEÁRIO PIÇARRAS           ['z_cresc'] swing=-0.032 turn=0.760 biom=0.120 cresc=+0.23
+  SE BARRA DOS COQUEIROS          ['z_cresc'] swing=-0.001 turn=0.824 biom=0.054 cresc=+0.31
+  SP UBIRAJARA                    ['z_biom'] swing=-0.073 turn=0.750 biom=0.144 cresc=-0.05
+  SP SANTO EXPEDITO               ['z_biom'] swing=-0.060 turn=0.760 biom=0.132 cresc=-0.06
+  SP RUBINÉIA                     ['z_cresc'] swing=-0.053 turn=0.760 biom=0.067 cresc=+0.23
+  SP MACAUBAL                     ['z_biom'] swing=-0.024 turn=0.822 biom=0.142 cresc=-0.00
+  SP SANTANA DA PONTE PENSA       ['z_cresc'] swing=-0.058 turn=0.748 biom=0.068 cresc=+0.18
+  SP ITAPIRAPUÃ PAULISTA          ['z_swing'] swing=-0.162 turn=0.776 biom=0.092 cresc=-0.02
+  SP BADY BASSITT                 ['z_cresc'] swing=-0.030 turn=0.775 biom=0.068 cresc=+0.16
+  SP SANDOVALINA                  ['z_cresc'] swing=-0.018 turn=0.702 biom=0.055 cresc=+0.30

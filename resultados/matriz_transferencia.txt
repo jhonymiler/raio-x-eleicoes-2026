@@ -1,0 +1,95 @@
+MATRIZ DE TRANSFERENCIA 1T -> 2T  (5,571 municipios, ajuste por estado)
+fracao de cada origem do 1T que foi para cada destino no 2T; [IC 95% bootstrap]
+
+origem (1T)            eleitores                    Lula                Flávio              bra/nulo             não votou
+Lula (1T)             53,722,151        97.9% [  98- 98]       0.8% [   1-  1]       0.1% [   0-  0]       1.2% [   1-  2]
+Flávio (1T)           55,960,603         0.9% [   1-  1]      97.7% [  97- 98]       0.2% [   0-  0]       1.2% [   0-  1]
+Augusto Cury           3,438,835        52.7% [  45- 67]      28.8% [  20- 33]      14.9% [   9- 18]       3.6% [   1-  9]
+Renan Santos           2,667,307        68.3% [  54- 73]      24.7% [  19- 32]       5.7% [   4- 14]       1.3% [   1-  3]
+Ronaldo Caiado         2,600,440        29.3% [  23- 41]      51.6% [  41- 58]      12.8% [   9- 16]       6.2% [   3- 12]
+Romeu Zema               323,159        13.0% [   3- 28]      74.6% [  54- 92]      11.8% [   1- 22]       0.5% [   1-  2]
+demais eliminados        262,534        73.2% [  68- 79]      25.8% [  16- 27]       0.2% [   0-  7]       0.7% [   1-  7]
+branco/nulo (1T)       5,959,040        60.6% [  55- 63]       0.6% [   0-  3]      36.9% [  33- 38]       2.0% [   1-  5]
+não votou (1T)        32,894,899         8.3% [   7-  9]       3.7% [   2-  4]       2.1% [   2-  3]      85.8% [  85- 88]
+
+blocos (mais estáveis que a divisão candidato a candidato):
+eliminados (todos)     9,292,275        49.8% [  47- 53]      35.5% [  33- 37]      11.1% [  10- 12]       3.5% [   2-  6]
+  (estado x tercil)                                50.0%                 35.4%                  9.2%                  5.4%
+Renan+Caiado+Zema      5,590,906        47.0% [  38- 52]      40.1% [  35- 45]       9.4% [   7- 12]       3.5% [   2-  7]
+  (estado x tercil)                                42.9%                 42.0%                 10.1%                  4.9%
+
+mesmos fluxos em votos:
+origem (1T)                   Lula        Flávio      bra/nulo     não votou
+Lula (1T)               52,595,605       414,949        69,415       642,181
+Flávio (1T)                476,702    54,688,942       110,005       684,954
+Augusto Cury             1,811,955       990,317       511,261       125,302
+Renan Santos             1,822,178       658,732       151,770        34,627
+Ronaldo Caiado             762,847     1,342,343       333,545       161,705
+Romeu Zema                  42,140       241,143        38,238         1,638
+demais eliminados          192,280        67,840           518         1,896
+branco/nulo (1T)         3,609,206        34,369     2,196,470       118,995
+não votou (1T)           2,732,432     1,231,052       705,407    28,226,008
+previsto 2T             64,045,346    59,669,688     4,116,628    29,997,306
+real 2T                 64,056,078    59,654,544     4,144,009    29,974,188
+
+robustez -- ajuste por estado x tercil do Lula (fracao para Lula / Flavio / bra-nulo / nao votou):
+   Lula (1T)            97.7%    0.9%    0.4%    1.0%
+   Flávio (1T)           1.4%   96.9%    0.4%    1.4%
+   Augusto Cury         61.0%   25.1%    7.8%    6.1%
+   Renan Santos         47.3%   38.4%   11.9%    2.3%
+   Ronaldo Caiado       41.2%   42.4%    8.9%    7.5%
+   Romeu Zema           20.3%   68.1%    5.2%    6.4%
+   demais eliminados    58.8%   27.4%    7.4%    6.5%
+   branco/nulo (1T)     54.5%    4.2%   37.1%    4.2%
+   não votou (1T)        8.8%    4.3%    2.0%   84.9%
+
+DE ONDE VEIO A VIRADA (margem Lula - Flávio)
+   margem no 1T: -2,238,452
+   branco/nulo (1T)          +3,574,837
+   Flávio (1T)               +1,748,363
+   Lula (1T)                 -1,541,495
+   não votou (1T)            +1,501,380
+   Renan Santos              +1,163,446
+   Augusto Cury                +821,637
+   Ronaldo Caiado              -579,496
+   Romeu Zema                  -199,003
+   demais eliminados           +124,440
+   soma = virada             +6,614,110
+   (previsto) margem 2T      +4,375,658   real +4,401,534
+
+POR REGIAO (votos, fluxos estimados; margem real)
+   Norte         margem     -458,835 ->       +1,079 (virada    +459,914) | eliminados: Lula 400,823 Flávio 210,495 | novos eleitores: Lula 76,668 Flávio 15,759 | abstenção 2,546,182 -> 2,783,746
+   Nordeste      margem  +11,095,611 ->  +13,653,696 (virada  +2,558,085) | eliminados: Lula 1,227,742 Flávio 362,659 | novos eleitores: Lula 776,634 Flávio 126,930 | abstenção 8,002,366 -> 7,175,226
+   Centro-Oeste  margem   -2,170,393 ->   -1,869,948 (virada    +300,445) | eliminados: Lula 366,907 Flávio 435,659 | novos eleitores: Lula 253,847 Flávio 149,004 | abstenção 2,604,805 -> 2,406,342
+   Sudeste       margem   -5,662,211 ->   -2,806,770 (virada  +2,855,441) | eliminados: Lula 2,190,118 Flávio 1,520,092 | novos eleitores: Lula 1,128,033 Flávio 853,700 | abstenção 15,063,212 -> 13,449,521
+   Sul           margem   -5,042,624 ->   -4,576,523 (virada    +466,101) | eliminados: Lula 445,810 Flávio 771,471 | novos eleitores: Lula 497,250 Flávio 85,659 | abstenção 4,678,334 -> 4,159,353
+
+POR ESTADO -- eleitores de Renan+Caiado+Zema no 1T e para onde foram (votos; [faixa])
+   UF   direita 1T    -> Lula              -> Flávio              saldo Flávio
+   SP    1,478,516    736,577 [ 30- 79%]    500,313 [ 15- 45%]      -236,264
+   MG      576,039    304,837 [ 37- 62%]    216,859 [ 28- 54%]       -87,978
+   GO      528,818    193,364 [ 32- 45%]    270,005 [ 44- 56%]       +76,641
+   RJ      433,594    165,068 [ 20- 70%]    266,489 [ 28- 79%]      +101,421
+   PR      365,900     50,871 [  6- 22%]    180,262 [ 40- 60%]      +129,391
+   RS      345,367    147,835 [ 14- 47%]    149,550 [ 40- 64%]        +1,715
+   BA      246,720    244,363 [ 69-100%]      2,357 [  0- 27%]      -242,006
+   SC      229,424     16,986 [  0- 13%]    180,749 [ 68- 88%]      +163,763
+   PE      165,101     52,516 [ 19- 74%]     72,098 [ 13- 55%]       +19,582
+   CE      157,501     89,894 [ 50- 71%]     62,328 [  0- 48%]       -27,566
+   PA      139,220     91,972 [ 61- 90%]     45,170 [  8- 39%]       -46,802
+   DF      136,705     45,568 [ 33- 33%]     45,568 [ 33- 33%]            +0
+   MA      115,126     63,859 [ 48- 60%]     22,393 [  0- 28%]       -41,466
+   ES       98,206     57,543 [ 51- 65%]     36,266 [ 27- 45%]       -21,277
+   MT       68,673     23,677 [ 20- 54%]     31,347 [ 31- 49%]        +7,670
+   AM       65,502     35,245 [ 41- 97%]     30,227 [  0- 57%]        -5,018
+   PB       63,746     24,517 [ 21- 65%]     38,296 [ 18- 71%]       +13,779
+   MS       57,930     23,559 [  0- 55%]     13,251 [  6- 60%]       -10,308
+   PI       55,260     37,856 [ 50- 90%]     12,578 [  4- 33%]       -25,278
+   RN       53,193     22,900 [ 19- 87%]     29,726 [ 12- 77%]        +6,826
+   SE       49,214     17,283 [ 24- 73%]     13,764 [  0- 46%]        -3,519
+   AL       42,217     24,349 [ 27- 64%]     17,120 [  2- 59%]        -7,229
+   RO       37,434     21,619 [ 18- 86%]      7,256 [  1- 72%]       -14,363
+   TO       33,767     11,577 [ 24- 66%]     15,470 [  8- 57%]        +3,893
+   AP       19,987      7,270 [  0- 48%]     12,134 [ 18-100%]        +4,864
+   AC       17,147      1,951 [  0- 36%]     13,969 [  3-100%]       +12,018
+   RR       10,599        246 [  0- 19%]     10,134 [  0-100%]        +9,888

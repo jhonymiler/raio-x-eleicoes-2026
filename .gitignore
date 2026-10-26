@@ -1,0 +1,6 @@
+dados/
+*.zip
+*.csv
+__pycache__/
+browser-outputs/
+.vercel/

@@ -1,0 +1,19 @@
+CONTROLE 2022: mesmo modelo, 5,570 municipios x 471,010 secoes (ajuste por estado)
+fracao de cada origem do 1T para Lula / Bolsonaro / bra-nulo / nao votou no 2T
+
+   Lula (1T)         municípios   57,120,571   96.3%    0.9%    0.7%    2.1%
+                     seções       57,120,571   96.3%    0.0%    1.0%    2.6%
+   Bolsonaro (1T)    municípios   50,949,797    0.8%   98.7%    0.0%    0.5%
+                     seções       50,949,797    0.0%   99.9%    0.0%    0.0%
+   Simone Tebet      municípios    4,902,256   32.1%   46.3%   20.8%    0.9%
+                     seções        4,902,256   37.5%   43.8%   17.8%    0.9%
+   Ciro Gomes        municípios    3,585,946   46.9%   34.5%   11.8%    6.8%
+                     seções        3,585,946   38.7%   40.8%   16.6%    3.9%
+   demais            municípios    1,376,624   29.8%   47.5%   21.3%    1.4%
+                     seções        1,376,624   24.7%   52.1%   19.4%    3.8%
+   branco/nulo (1T)  municípios    5,443,146   12.8%   31.0%   55.7%    0.5%
+                     seções        5,443,146   16.5%   27.2%   54.2%    2.1%
+   não votou (1T)    municípios   32,380,232    1.4%    4.2%    1.6%   92.8%
+                     seções       32,380,232    2.3%    4.0%    1.1%   92.5%
+   eliminados        municípios    9,864,826   37.2%   42.2%   17.6%    3.1%
+   eliminados        seções        9,864,826   36.1%   43.9%   17.6%    2.4%

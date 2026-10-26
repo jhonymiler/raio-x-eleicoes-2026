@@ -1,0 +1,26 @@
+BOLSA FAMILIA (202608) x MUDANCA ENTRE OS TURNOS -- 5,543 municipios (28 sem par de nome)
+familias: 18,710,080  valor R$ 12,717,063,121
+cobertura = familias beneficiarias / eleitores aptos
+
+Flavio perdeu votos: 928 municipios, cobertura mediana 21.6% | demais: 4615, 9.2%
+   parcela do Lula no 1T, mediana: 69.8% x 44.4%
+   variacao do comparecimento, mediana: -1.9% x +2.7%
+
+por faixa de cobertura (Brasil inteiro):
+   cobertura    municipios  Lula 1T  mudanca Lula  var. Flavio  var. compar.  Flavio perdeu
+   0%-5%               924    29.6%       +2.90pp        +7.4%         +2.5%             0%
+   5%-10%             1594    39.1%       +3.05pp        +7.1%         +2.8%             3%
+   10%-15%             805    47.7%       +2.45pp        +6.0%         +2.2%            14%
+   15%-20%             751    66.6%       +1.77pp        +3.2%         +1.5%            28%
+   20%-25%             875    73.0%       +1.61pp        +2.2%         +1.7%            34%
+   25%-30%             440    74.1%       +1.49pp        +1.3%         +1.2%            42%
+   30%-40%             142    74.9%       +1.52pp        -0.6%         +0.1%            53%
+   >= 40%               12    71.1%       +1.30pp        -2.8%         +0.2%            67%
+
+regressao dentro do estado (efeito fixo de UF), por +10 pontos de cobertura:
+   mudanca do Lula (pp)            so cobertura          -0.45  z= -13.3
+   mudanca do Lula (pp)            + controle Lula 1T    -0.02  z=  -0.6
+   variacao do Flavio (%)          so cobertura          -0.74  z=  -5.8
+   variacao do Flavio (%)          + controle Lula 1T    -0.72  z=  -5.2
+   variacao do comparecimento (%)  so cobertura          +0.09  z=  +1.2
+   variacao do comparecimento (%)  + controle Lula 1T    +0.13  z=  +1.7

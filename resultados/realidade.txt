@@ -1,0 +1,25 @@
+casados 5558 de 5571; não casados: ['GO BOM JESUS', 'MT SANTO ANTÔNIO DO LEVERGER', 'MG BARÃO DE MONTE ALTO', 'MG DONA EUSÉBIA', 'MG SÃO THOMÉ DAS LETRAS', 'PR MUNHOZ DE MELLO', 'PA ELDORADO DOS CARAJÁS', 'RN BOA SAÚDE', 'RO ALVORADA DO OESTE', 'RO ESPIGÃO DO OESTE', 'RR SÃO LUIZ', 'SE AMPARO DE SÃO FRANCISCO']
+Brasil: população 213.251.678 | aptos 157.691.290 (73.9%) | comparecimento 127.746.033 (59.9%) | mediana aptos/pop 0.82
+municípios com mais eleitores que moradores: 718 (pop 3.064.606, aptos 3.389.244, Lula 1.645.236, Flávio 957.518)
+   GO DAVINÓPOLIS                pop   1.889 aptos   4.144 (2.19) votaram   3.010 (1.59)
+   GO ANHANGÜERA                 pop     913 aptos   1.738 (1.90) votaram   1.070 (1.17)
+   GO PILAR DE GOIÁS             pop   2.254 aptos   3.938 (1.75) votaram   2.607 (1.16)
+   MG SÃO SEBASTIÃO DO RIO PRETO pop   1.229 aptos   2.044 (1.66) votaram   1.433 (1.17)
+   PI NOVO SANTO ANTÔNIO         pop   2.888 aptos   4.727 (1.64) votaram   3.743 (1.30)
+   TO CHAPADA DE AREIA           pop   1.574 aptos   2.545 (1.62) votaram   1.894 (1.20)
+   RN TIBAU                      pop   5.748 aptos   9.238 (1.61) votaram   7.417 (1.29)
+   RN BODÓ                       pop   2.360 aptos   3.784 (1.60) votaram   2.942 (1.25)
+   PI SÃO LUIS DO PIAUÍ          pop   2.277 aptos   3.573 (1.57) votaram   2.736 (1.20)
+   PI AROEIRAS DO ITAIM          pop   2.777 aptos   4.352 (1.57) votaram   3.885 (1.40)
+   MG SEM PEIXE                  pop   2.420 aptos   3.767 (1.56) votaram   2.563 (1.06)
+   MG QUELUZITO                  pop   1.796 aptos   2.786 (1.55) votaram   2.259 (1.26)
+municípios com comparecimento > 80% da população: 819
+   GO DAVINÓPOLIS                pop   1.889 votaram   3.010 (1.59)
+   PI AROEIRAS DO ITAIM          pop   2.777 votaram   3.885 (1.40)
+   PI NOVO SANTO ANTÔNIO         pop   2.888 votaram   3.743 (1.30)
+   RN TIBAU                      pop   5.748 votaram   7.417 (1.29)
+   PI JATOBÁ DO PIAUÍ            pop   4.560 votaram   5.750 (1.26)
+   MG QUELUZITO                  pop   1.796 votaram   2.259 (1.26)
+   RN BODÓ                       pop   2.360 votaram   2.942 (1.25)
+   TO CHAPADA DE AREIA           pop   1.574 votaram   1.894 (1.20)
+correlação (dentro do estado) entre excesso de cadastro e mudança para o Lula: -0.268

@@ -1,0 +1,15 @@
+CONFERENCIA DO 2o TURNO COM O BU ASSINADO (pleito 3221)
+BUs lidos: 13806 de 13806 secoes pedidas
+
+1. Integridade: 108 de 108 municipios com todas as secoes; 12746 secoes, 3128134 votos em Lula+Flavio; diferencas BU x total oficial: 0
+
+2. Escola: 173 secoes medidas; continuam destoando do mesmo lado no 2T (>= 5 pts): 172; |residuo| mediano 1T 0.2262 -> 2T 0.2043; correlacao 1T x 2T 0.983
+
+3. Viradas no 2T:
+   RS-88323 HERVEIRAS: Lula 47.3%, 7/10 secoes com o mesmo vencedor da cidade, dp 0.0869
+   RN-18651 SERRA NEGRA DO NORTE: Lula 61.1%, 22/22 secoes com o mesmo vencedor da cidade, dp 0.0318
+   SP-61948 ITAPIRAPUÃ PAULISTA: Lula 45.2%, 9/10 secoes com o mesmo vencedor da cidade, dp 0.0365
+   PR-78778 SÃO JOÃO DO TRIUNFO: Lula 45.0%, 33/46 secoes com o mesmo vencedor da cidade, dp 0.1016
+   PI-10049 BAIXA GRANDE DO RIBEIRO: Lula 60.2%, 31/40 secoes com o mesmo vencedor da cidade, dp 0.1201
+   PI-12050 SÃO JULIÃO: Lula 77.2%, 23/23 secoes com o mesmo vencedor da cidade, dp 0.0495
+   AP-6050 MACAPÁ: Lula 51.0%, 543/1027 secoes com o mesmo vencedor da cidade, dp 0.0797

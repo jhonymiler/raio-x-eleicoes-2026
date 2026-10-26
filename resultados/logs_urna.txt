@@ -1,0 +1,15 @@
+baixando logs de 987 secoes...
+  100/987
+  200/987
+  300/987
+  400/987
+  500/987
+  600/987
+  700/987
+  800/987
+  900/987
+escola_novas    logs=117/125 bate_BU=117 manual=6.7% multi=1 padroes={} seq10+=0 maxseq=3 rapidos<20s=0.00% ultima_hora=9.1% intervalo=131s
+escola_antigas  logs=56/60 bate_BU=56 manual=6.4% multi=3 padroes={} seq10+=0 maxseq=3 rapidos<20s=0.00% ultima_hora=8.9% intervalo=114s
+klimek          logs=65/65 bate_BU=65 manual=7.2% multi=0 padroes={'defeito desde cedo, espalhado no dia': 1} seq10+=0 maxseq=4 rapidos<20s=0.00% ultima_hora=6.9% intervalo=164s
+biometria_alta  logs=150/150 bate_BU=150 manual=73.2% multi=42 padroes={'defeito desde cedo, espalhado no dia': 135, 'intermediário': 15} seq10+=136 maxseq=201 rapidos<20s=0.01% ultima_hora=11.6% intervalo=132s
+controle        logs=600/600 bate_BU=600 manual=6.5% multi=8 padroes={} seq10+=0 maxseq=4 rapidos<20s=0.00% ultima_hora=9.9% intervalo=100s

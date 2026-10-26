@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voto em Foco · Eleições 2026, estado por estado</title>
+<meta name="description" content="Os números da investigação independente sobre a eleição presidencial de 2026: cada divergência, o teste feito e o que ele mostrou.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="#visao" aria-label="Voto em Foco, início">
+    <span class="marca-grade" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    VOTO EM FOCO
+  </a>
+  <nav class="abas" aria-label="Seções do site">
+    <a href="#visao" data-rota="visao">Visão geral</a>
+    <a href="#turnos" data-rota="turnos">Comparar turnos</a>
+    <a href="#analises" data-rota="analises">Análises</a>
+    <a href="#fontes" data-rota="fontes">Fontes e método</a>
+  </nav>
+  <button class="botao-contorno" id="abrir-sobre" type="button">Sobre os dados</button>
+</header>
+
+<main>
+  <!-- VISÃO GERAL -->
+  <section id="visao" class="pagina" aria-labelledby="t-visao">
+    <h1 id="t-visao" class="titulo-pagina">Explore a eleição, estado por estado.</h1>
+    <p class="subtitulo">Cada divergência que encontramos, o teste que fizemos e o que ele mostrou</p>
+
+    <div class="placar" id="placar"></div>
+
+    <div class="grade-mapa">
+      <div class="cartao mapa-cartao">
+        <div class="mapa-barra">
+          <nav class="trilha" id="trilha" aria-label="Você está em"></nav>
+          <div class="mapa-controles">
+            <div class="busca">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+              <input id="busca" type="search" placeholder="Buscar estado ou município" autocomplete="off" aria-label="Buscar estado ou município" aria-controls="busca-lista">
+              <ul id="busca-lista" class="busca-lista" role="listbox" hidden></ul>
+            </div>
+            <label class="seletor">
+              <span class="sr">Colorir o mapa por</span>
+              <select id="camada">
+                <option value="nav">Navegação por estado</option>
+                <option value="t2">Quem venceu o 2º turno</option>
+                <option value="escola">Seções que destoam da escola</option>
+                <option value="cadastro">Eleitores além da população</option>
+                <option value="migr">Flávio perdeu votos no 2º turno</option>
+                <option value="migrL">Lula perdeu votos no 2º turno</option>
+                <option value="direita">Para onde foi a direita eliminada</option>
+                <option value="manual">Liberação sem digital (logs)</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="mapa-area">
+          <div class="zoom">
+            <button type="button" id="zoom-mais" aria-label="Aproximar">+</button>
+            <button type="button" id="zoom-menos" aria-label="Afastar">−</button>
+          </div>
+          <svg id="mapa" viewBox="0 0 660 640" role="group" aria-label="Mapa do Brasil por estado"></svg>
+          <div class="legenda" id="legenda"></div>
+          <p class="dica">Selecione um estado para ver as análises</p>
+        </div>
+      </div>
+
+      <aside class="cartao painel" id="painel" aria-live="polite"></aside>
+    </div>
+
+    <div class="cartao entenda">
+      <div class="entenda-topo">
+        <h2>Entenda as análises</h2>
+        <a href="#analises" class="ver-todas">Ver todas as <span class="n-pistas">15</span> <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="entenda-grade" id="entenda"></div>
+    </div>
+  </section>
+
+  <!-- COMPARAR TURNOS -->
+  <section id="turnos" class="pagina" hidden aria-labelledby="t-turnos">
+    <h1 id="t-turnos" class="titulo-pagina">Do 1º para o 2º turno</h1>
+    <p class="subtitulo">De onde vieram os 10,4 milhões de votos que o Lula ganhou entre os turnos</p>
+    <div id="turnos-conteudo"></div>
+  </section>
+
+  <!-- ANÁLISES -->
+  <section id="analises" class="pagina" hidden aria-labelledby="t-analises">
+    <h1 id="t-analises" class="titulo-pagina">As <span class="n-pistas">15</span> perguntas da investigação</h1>
+    <p class="subtitulo">Para cada uma: como seria se houvesse fraude, qual a explicação inocente, o teste e o resultado</p>
+    <div class="filtros" id="filtros" role="group" aria-label="Filtrar por situação"></div>
+    <div id="analises-lista"></div>
+  </section>
+
+  <!-- FONTES -->
+  <section id="fontes" class="pagina" hidden aria-labelledby="t-fontes">
+    <h1 id="t-fontes" class="titulo-pagina">Fontes e método</h1>
+    <p class="subtitulo">Tudo aqui vem de arquivos públicos do TSE e do IBGE. Qualquer pessoa pode refazer as contas.</p>
+    <div id="fontes-conteudo"></div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <span id="rodape-texto"></span>
+  <span>Retratos dos candidatos: ilustrações geradas por IA a partir de imagem de debate televisivo.</span>
+</footer>
+
+<dialog id="sobre" aria-labelledby="t-sobre">
+  <form method="dialog">
+    <h2 id="t-sobre">Sobre os dados</h2>
+    <p>Este site mostra os números de uma investigação independente sobre a eleição presidencial de 2026. Ela partiu da pergunta “houve fraude?” e procurou, nos arquivos públicos do TSE, os sinais que uma fraude deixaria.</p>
+    <p><strong>Como ler cada ponto.</strong> Cada divergência vem com uma etiqueta:</p>
+    <ul class="lista-status">
+      <li><span class="selo aberta">Em aberto</span> o sinal existe e ainda não foi explicado por completo.</li>
+      <li><span class="selo explicada">Explicada</span> o sinal existe, e uma causa inocente medida dá conta dele.</li>
+      <li><span class="selo sem-sinal">Sem sinal</span> procuramos e o padrão de fraude não apareceu.</li>
+      <li><span class="selo fora">Fora do alcance</span> os dados públicos não permitem testar.</li>
+    </ul>
+    <p><strong>“Em aberto” não quer dizer fraude.</strong> Quer dizer que vale conferir: boletim impresso, fiscal de partido, cartório eleitoral. Estatística aponta onde olhar; quem prova é a conferência do boletim de urna.</p>
+    <p>Recorte: 1º turno completo; 2º turno com 100% das seções totalizadas (25/10/2026, 23h27).</p>
+    <button class="botao-cheio" value="ok">Entendi</button>
+  </form>
+</dialog>
+
+<script src="analises_simples.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

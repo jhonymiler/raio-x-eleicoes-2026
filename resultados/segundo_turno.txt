@@ -1,0 +1,15 @@
+Lula (2 finalistas): 1T 48.98% -> 2T 51.78% (100,00% totalizado, encerrada=True)
+mudanca por municipio: mediana +2.37 pp (p5 +0.28, p95 +4.30); n=5571
+R2 da composicao do 1T: 0.44
+   AUGUSTO JORGE CURY             +7.05 pp por 100%  z=+3.3
+   RENAN ANTONIO FERREIRA DOS SANTOS  +18.84 pp por 100%  z=+6.6
+   RONALDO RAMOS CAIADO           +3.07 pp por 100%  z=+4.2
+   ROMEU ZEMA NETO                -2.75 pp por 100%  z=-0.4
+   outros                       +181.97 pp por 100%  z=+8.0
+   bn                            +19.28 pp por 100%  z=+17.2
+   s1                             -3.53 pp por 100%  z=-42.6
+fora do padrao do estado: 3
+   AL27170    mud=-8.8 residuo=-10.2 z=-15.8 validos=4566
+   PI11878    mud=-7.6 residuo=-8.8 z=-12.1 validos=5117
+   RN18937    mud=+10.2 residuo=+8.4 z=+9.2 validos=2896
+horario: {"urnas": 10800, "municipios": 2759, "votos_apos_17h_pct": 0.00027672155537680066, "urnas_fecharam_17h_pct": 0.9978703703703704, "comparecimento_2t_vs_1t": 0.00727266435153151, "corr_apos17h_mudanca": -0.03490209112920231, "corr_comparecimento_mudanca": 0.09755620950891875}

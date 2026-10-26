@@ -1,0 +1,133 @@
+==============================================================================
+CONTROLE ESTRUTURAL -- variaveis que ninguem manipula
+==============================================================================
+municipios: 5,571  |  1o turno, cargo Presidente
+
+Se a assinatura de digitos destas variaveis for igual a de um
+candidato, a assinatura e da geografia, nao do candidato.
+
+--- eleitorado apto  (QT_APTOS) ---
+  gate lognormal : sigma = 0.474 decadas -> desvio previsto 0.377 pp
+  gate de Fourier: |phi(2pi)| = 0.0639  (ruido amostral 0.0134, excesso 4.8x)
+                   |phi(4pi)| = 0.0056   desvio previsto na mantissa <= 4.42 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 45.7  gl=8  p = 2.71e-07
+    MAD  = 0.00930  -> aceitavel
+    Kuiper V = 0.04661  p = 2.64e-09
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,503 vs       1,677   -3.12pp  z=  -5.07 <<<
+        5:       499 vs         441   +1.04pp  z=  +2.85
+        3:       762 vs         696   +1.18pp  z=  +2.65
+        6:       420 vs         373   +0.84pp  z=  +2.49
+        2:       922 vs         981   -1.06pp  z=  -2.06
+        4:       584 vs         540   +0.79pp  z=  +1.98
+        7:       338 vs         323   +0.27pp  z=  +0.83
+        8:       287 vs         285   +0.04pp  z=  +0.09
+        9:       256 vs         255   +0.02pp  z=  +0.04
+
+
+--- comparecimento  (QT_COMPARECIMENTO) ---
+  gate lognormal : sigma = 0.473 decadas -> desvio previsto 0.381 pp
+  gate de Fourier: |phi(2pi)| = 0.0655  (ruido amostral 0.0134, excesso 4.9x)
+                   |phi(4pi)| = 0.0084   desvio previsto na mantissa <= 4.81 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 54.3  gl=8  p = 5.93e-09
+    MAD  = 0.01001  -> aceitavel
+    Kuiper V = 0.04755  p = 1.03e-09
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,504 vs       1,677   -3.11pp  z=  -5.04 <<<
+        4:       610 vs         540   +1.26pp  z=  +3.15 <<<
+        3:       766 vs         696   +1.26pp  z=  +2.81
+        8:       239 vs         285   -0.83pp  z=  -2.77
+        5:       494 vs         441   +0.95pp  z=  +2.60
+        9:       223 vs         255   -0.57pp  z=  -2.01
+        2:     1,029 vs         981   +0.86pp  z=  +1.67
+        7:       332 vs         323   +0.16pp  z=  +0.48
+        6:       374 vs         373   +0.02pp  z=  +0.03
+
+
+--- abstencoes  (QT_ABSTENCOES) ---
+  gate lognormal : sigma = 0.488 decadas -> desvio previsto 0.287 pp
+  gate de Fourier: |phi(2pi)| = 0.0416  (ruido amostral 0.0134, excesso 3.1x)
+                   |phi(4pi)| = 0.0096   desvio previsto na mantissa <= 3.25 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 22.2  gl=8  p = 0.00449
+    MAD  = 0.00610  -> aceitavel
+    Kuiper V = 0.03189  p = 0.000497
+    maiores desvios (bin: obs vs esp, pp, z):
+        7:       371 vs         323   +0.86pp  z=  +2.72
+        3:       646 vs         696   -0.90pp  z=  -2.01
+        2:       924 vs         981   -1.02pp  z=  -1.99
+        8:       315 vs         285   +0.54pp  z=  +1.80
+        4:       506 vs         540   -0.61pp  z=  -1.51
+        1:     1,728 vs       1,677   +0.91pp  z=  +1.47
+        9:       269 vs         255   +0.25pp  z=  +0.87
+        5:       429 vs         441   -0.22pp  z=  -0.58
+        6:       383 vs         373   +0.18pp  z=  +0.51
+
+
+--- votos validos  (QT_TOTAL_VOTOS_VALIDOS) ---
+  gate lognormal : sigma = 0.473 decadas -> desvio previsto 0.387 pp
+  gate de Fourier: |phi(2pi)| = 0.0671  (ruido amostral 0.0134, excesso 5.0x)
+                   |phi(4pi)| = 0.0067   desvio previsto na mantissa <= 4.90 pp
+  veredito: MARGINAL (forma so parcialmente Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 52.5  gl=8  p = 1.36e-08
+    MAD  = 0.01005  -> aceitavel
+    Kuiper V = 0.05114  p = 2.26e-11
+    maiores desvios (bin: obs vs esp, pp, z):
+        1:     1,500 vs       1,677   -3.18pp  z=  -5.16 <<<
+        4:       619 vs         540   +1.42pp  z=  +3.56 <<<
+        2:     1,068 vs         981   +1.56pp  z=  +3.04 <<<
+        8:       243 vs         285   -0.75pp  z=  -2.52
+        5:       482 vs         441   +0.73pp  z=  +2.00
+        3:       738 vs         696   +0.75pp  z=  +1.68
+        9:       237 vs         255   -0.32pp  z=  -1.12
+        7:       308 vs         323   -0.27pp  z=  -0.84
+        6:       376 vs         373   +0.05pp  z=  +0.14
+
+
+--- votos brancos  (QT_VOTOS_BRANCOS) ---
+  gate lognormal : sigma = 0.548 decadas -> desvio previsto 0.084 pp
+  gate de Fourier: |phi(2pi)| = 0.0246  (ruido amostral 0.0134, excesso 1.8x)
+                   |phi(4pi)| = 0.0190   desvio previsto na mantissa <= 2.36 pp
+  veredito: APLICAVEL (forma compativel com Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 14.8  gl=8  p = 0.064
+    MAD  = 0.00487  -> conformidade proxima
+    Kuiper V = 0.02788  p = 0.00547
+    maiores desvios (bin: obs vs esp, pp, z):
+        4:       596 vs         540   +1.01pp  z=  +2.52
+        2:       922 vs         981   -1.06pp  z=  -2.06
+        3:       734 vs         696   +0.68pp  z=  +1.52
+        7:       300 vs         323   -0.41pp  z=  -1.29
+        1:     1,637 vs       1,677   -0.72pp  z=  -1.15
+        8:       296 vs         285   +0.20pp  z=  +0.64
+        6:       380 vs         373   +0.13pp  z=  +0.35
+        5:       448 vs         441   +0.12pp  z=  +0.32
+        9:       258 vs         255   +0.06pp  z=  +0.17
+
+
+--- votos nulos  (QT_VOTOS_NULOS) ---
+  gate lognormal : sigma = 0.518 decadas -> desvio previsto 0.160 pp
+  gate de Fourier: |phi(2pi)| = 0.0042  (ruido amostral 0.0134, excesso 0.3x)
+                   |phi(4pi)| = 0.0108   desvio previsto na mantissa <= 1.10 pp
+  veredito: APLICAVEL (forma compativel com Benford)   (n=5,571)
+  1o digito  (n=5,571)
+    chi2 = 3.8  gl=8  p = 0.871
+    MAD  = 0.00214  -> conformidade proxima
+    Kuiper V = 0.01386  p = 0.775
+    maiores desvios (bin: obs vs esp, pp, z):
+        4:       515 vs         540   -0.45pp  z=  -1.10
+        8:       267 vs         285   -0.32pp  z=  -1.06
+        3:       720 vs         696   +0.43pp  z=  +0.95
+        9:       244 vs         255   -0.20pp  z=  -0.67
+        1:     1,696 vs       1,677   +0.34pp  z=  +0.54
+        2:       986 vs         981   +0.09pp  z=  +0.16
+        6:       376 vs         373   +0.05pp  z=  +0.14
+        5:       443 vs         441   +0.03pp  z=  +0.07
+        7:       324 vs         323   +0.02pp  z=  +0.02
+

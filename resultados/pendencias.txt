@@ -1,0 +1,49 @@
+PENDENCIAS FECHADAS
+1. Cadastro: dos 718 municipios, 718 casados com o Censo; 532 ja tinham mais eleitores que moradores CONTADOS em 2022 (Brasil: 587), excesso 193440; eleitorado 2022->2026 mediano 6.6% (Brasil 2.7%)
+2. Crescimento: 17/17 medidos; populacao cresceu >= 2x a mediana (2.8%) em 11; eleitorado ate 5 pts acima da populacao em 0; explicados 11
+   CE-13480 ITAITINGA: votos +26.1% eleitorado +27.8% populacao +12.2% aptos/pop 0.527
+   PA-4707 CANAÃ DOS CARAJÁS: votos +49.1% eleitorado +49.8% populacao +16.2% aptos/pop 0.82
+   RJ-59099 SAQUAREMA: votos +27.4% eleitorado +25.3% populacao +6.4% aptos/pop 0.966
+   RJ-58530 MARICÁ: votos +25.7% eleitorado +29.0% populacao +7.7% aptos/pop 0.874
+   RN-16225 TIBAU: votos +30.5% eleitorado +39.9% populacao +6.8% aptos/pop 1.607
+   RN-16713 EXTREMOZ: votos +37.0% eleitorado +41.1% populacao +11.3% aptos/pop 0.576
+   RN-17833 PASSAGEM: votos +23.5% eleitorado +30.5% populacao +3.8% aptos/pop 1.406
+   RS-88145 XANGRI-LÁ: votos +18.8% eleitorado +20.4% populacao +2.9% aptos/pop 0.871
+   SC-80900 MACIEIRA: votos +29.7% eleitorado +33.3% populacao +1.0% aptos/pop 1.314
+   SC-81744 BALNEÁRIO GAIVOTA: votos +24.1% eleitorado +23.7% populacao +14.8% aptos/pop 0.722
+   SC-80403 PASSO DE TORRES: votos +25.4% eleitorado +25.5% populacao +15.2% aptos/pop 0.614
+   SC-82511 BALNEÁRIO PIÇARRAS: votos +22.8% eleitorado +26.2% populacao +12.8% aptos/pop 0.761
+   SE-31119 BARRA DOS COQUEIROS: votos +31.2% eleitorado +26.0% populacao +8.8% aptos/pop 0.702
+   SP-69914 RUBINÉIA: votos +22.7% eleitorado +19.9% populacao +4.3% aptos/pop 0.98
+   SP-70459 SANTANA DA PONTE PENSA: votos +18.0% eleitorado +20.7% populacao +1.7% aptos/pop 1.133
+   SP-61913 BADY BASSITT: votos +15.7% eleitorado +18.4% populacao +7.6% aptos/pop 0.578
+   SP-70114 SANDOVALINA: votos +29.6% eleitorado +39.5% populacao +1.4% aptos/pop 1.319
+3. Viradas no 2T x 2T: 3 de 5570; das 7 do 1T tambem no 2T: ['PI12050']
+   AL-27170 -13.1% (estado -0.4%)
+   PI-12491 +6.5% (estado -2.2%)
+   PI-12050 +7.2% (estado -2.2%)
+4. Flavio perdeu votos: 938 em 2026; Bolsonaro perdeu em 92 de 5570 em 2022; nos dois anos 90; com queda de comparecimento 728; perda total 133900, onde o comparecimento caiu 121217
+   AC: 21 (9 tambem em 2022)
+   AL: 74 (5 tambem em 2022)
+   AM: 56 (13 tambem em 2022)
+   AP: 16 (10 tambem em 2022)
+   BA: 10 (0 tambem em 2022)
+   CE: 48 (0 tambem em 2022)
+   MA: 171 (23 tambem em 2022)
+   MG: 6 (0 tambem em 2022)
+   MS: 4 (0 tambem em 2022)
+   MT: 21 (0 tambem em 2022)
+   PA: 78 (5 tambem em 2022)
+   PB: 60 (2 tambem em 2022)
+   PE: 17 (0 tambem em 2022)
+   PI: 110 (2 tambem em 2022)
+   PR: 2 (0 tambem em 2022)
+   RJ: 10 (0 tambem em 2022)
+   RN: 78 (1 tambem em 2022)
+   RO: 4 (0 tambem em 2022)
+   RR: 15 (14 tambem em 2022)
+   RS: 1 (0 tambem em 2022)
+   SC: 1 (0 tambem em 2022)
+   SE: 17 (0 tambem em 2022)
+   SP: 3 (0 tambem em 2022)
+   TO: 115 (6 tambem em 2022)
