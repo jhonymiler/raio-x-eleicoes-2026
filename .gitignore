@@ -1,4 +1,4 @@
-dados/
+/dados/
 *.zip
 *.csv
 __pycache__/
