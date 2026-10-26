@@ -4,3 +4,4 @@ dados/
 __pycache__/
 browser-outputs/
 .vercel/
+.env*
